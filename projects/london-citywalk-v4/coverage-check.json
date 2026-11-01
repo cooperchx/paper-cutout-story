@@ -1,0 +1,24 @@
+{
+  "newspaper": {
+    "source": "assets/newspaper.png",
+    "screenCoverageAtCutSeconds": 10.2,
+    "alphaRangeInViewport": [
+      251,
+      254
+    ],
+    "compositor": "opaque filter maps alpha >= 0.8 to 1"
+  },
+  "bus": {
+    "width": 4440.436363636363,
+    "height": 2960.290909090909,
+    "left": -494.94545454545437,
+    "top": -462.32727272727266,
+    "sourceRect": [
+      160,
+      140,
+      396,
+      704
+    ]
+  },
+  "oneWipeAtATime": true
+}

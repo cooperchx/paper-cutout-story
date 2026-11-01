@@ -1,0 +1,149 @@
+{
+  "format": "1080x1920 / 24fps / 12s",
+  "pose": {
+    "framesChecked": 280,
+    "poseFailures": [],
+    "movements": [
+      {
+        "frame": 72,
+        "model": "matrix(0.999921, -0.0125455, 0.0125455, 0.999921, 3.0362, -2.2712)",
+        "tree": "matrix(0.999793, 0.0203375, -0.0203375, 0.999793, 1.8949, 3.4985)"
+      },
+      {
+        "frame": 75,
+        "model": "matrix(0.999959, -0.00901092, 0.00901092, 0.999959, 0.9958, 0.3569)",
+        "tree": "matrix(0.999932, 0.0116662, -0.0116662, 0.999932, 4.6243, 3.9112)"
+      },
+      {
+        "frame": 78,
+        "model": "matrix(0.999999, -0.00107436, 0.00107436, 0.999999, -1.4041, 2.67)",
+        "tree": "matrix(1, -0.00013206, 0.00013206, 1, 6.443, 2.3966)"
+      }
+    ],
+    "chinese": [
+      {
+        "text": "武康路",
+        "font": "Smiley"
+      },
+      {
+        "text": "武康路",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "咖啡小憩",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "慢慢逛",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "走走，停停。看看这座城。",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "咖",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "啡",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "小",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "憩",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "把",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "日",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "常",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "剪",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "成",
+        "font": "Smiley, serif"
+      },
+      {
+        "text": "风",
+        "font": "Smiley, sans-serif"
+      },
+      {
+        "text": "景",
+        "font": "Smiley, serif"
+      }
+    ],
+    "smileyLoaded": true,
+    "title": "Shanghai Citywalk"
+  },
+  "coverage": {
+    "cup": {
+      "sourceCrop": [
+        381,
+        208,
+        803,
+        956
+      ],
+      "minAlpha": 252,
+      "maxAlpha": 254,
+      "pixelsBelow204": 0,
+      "pixels": 315656,
+      "fullyOpaqueAfterFilter": true
+    },
+    "building": {
+      "sourceCrop": [
+        402,
+        341,
+        878,
+        1184
+      ],
+      "minAlpha": 252,
+      "maxAlpha": 254,
+      "pixelsBelow204": 0,
+      "pixels": 401268,
+      "fullyOpaqueAfterFilter": true
+    }
+  },
+  "stableSceneCheck": {
+    "times": [
+      1,
+      2.8,
+      4.2,
+      6.5,
+      8.3,
+      11.6
+    ],
+    "runtimeErrors": 0,
+    "layoutIssues": 0,
+    "motionErrors": 0,
+    "contrastPassed": 97,
+    "contrastTotal": 97
+  },
+  "occlusionCheckNote": "自动文字对比度检查把巨型贴纸下方已被完全遮挡的文字误当作可见文字；已查看全屏遮挡画面并验证贴纸不透明核心覆盖整幅画面。",
+  "encodedVideo": {
+    "codec": "H.264",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "frames": 288,
+    "durationSeconds": 12,
+    "bytes": 27122590,
+    "audio": "AAC stereo 48000Hz",
+    "audioPeakDb": -6.2,
+    "audioMeanDb": -22.4,
+    "contactSheetReviewed": true
+  }
+}

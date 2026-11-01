@@ -1,0 +1,17 @@
+{
+  "name": "paper-cutout-story",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Optional local renderer for the paper-cutout-story agent skill",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "verify": "python3 scripts/verify_package.py"
+  },
+  "dependencies": {
+    "puppeteer": "25.5.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

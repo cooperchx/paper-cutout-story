@@ -1,0 +1,72 @@
+{
+  "composition": {
+    "framesChecked": 359,
+    "loopGroups": 3,
+    "poseFailures": [],
+    "sceneFailures": [],
+    "multipleTransitionStickers": [],
+    "title": "London Citywalk"
+  },
+  "coverage": {
+    "bus": {
+      "sourceCrop": [
+        170,
+        158,
+        546,
+        826
+      ],
+      "minAlpha": 252,
+      "fullyOpaqueAfterTransfer": true,
+      "cutAt": 5.1
+    },
+    "ticket": {
+      "opaqueCore": [
+        -140,
+        -168,
+        1215,
+        2111
+      ],
+      "viewport": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "cutAt": 10.2,
+      "fullyCovered": true
+    }
+  },
+  "check": {
+    "times": [
+      1.5,
+      3,
+      7.5,
+      8.5,
+      11.8,
+      13.5,
+      14.8
+    ],
+    "errors": 0,
+    "warnings": 0,
+    "layoutIssues": 0,
+    "contrastPassed": 85,
+    "contrastTotal": 85
+  },
+  "preview": "http://localhost:3026/#project/london-citywalk",
+  "encodedVideo": {
+    "codec": "H.264",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "frames": 360,
+    "durationSeconds": 15,
+    "sizeBytes": 25379444,
+    "audio": "AAC stereo",
+    "audioPeakDb": -6.2,
+    "audioMeanDb": -22.6,
+    "twoCycleContactReviewed": true,
+    "bothTransitionContactsReviewed": true,
+    "finalFrameReviewed": true,
+    "renderSeconds": 41.8
+  }
+}

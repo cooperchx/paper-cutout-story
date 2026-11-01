@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920"><script src="assets/gsap.min.js"></script>
+<style>
+
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1920px;overflow:hidden}body{color:#222b37;font-family:Label,sans-serif}#root{width:100%;height:100%;overflow:hidden;position:relative;background:#eee9dd}.scene{position:absolute;inset:0;overflow:hidden}.stage{position:absolute;inset:0}.grain{position:absolute;inset:0;pointer-events:none;opacity:.13;z-index:80;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch' seed='8'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E")}
+#scene-a{background:#eee9dd;z-index:2}#scene-b{background:#e9d786;z-index:3}
+.topstrip{position:absolute;top:86px;left:80px;font-size:26px;letter-spacing:5px}.folio{position:absolute;top:84px;right:76px;font:italic 31px Editorial,serif}.label{background:#222b37;color:#fff9e9;padding:13px 22px;letter-spacing:3px;font-size:27px;box-shadow:5px 7px 0 #222b3726;width:max-content}.time{position:absolute;left:82px;top:460px;z-index:20}.title{position:absolute;left:93px;top:168px;z-index:30;display:flex;gap:8px;align-items:center}.title.second{top:304px;left:269px}.letter{width:145px;height:142px;background:#fffdf1;box-shadow:4px 7px 2px #1c263529;font:italic 112px Editorial,serif;text-align:center;line-height:140px;display:block}.letter.alt{background:#315b82;color:#fffdf1}.letter.yellow{background:#e9d786}.letter.ink{background:#222b37;color:#fffdf1}.letter.slim{width:118px}.subtitle{position:absolute;left:95px;top:282px;font:italic 31px Editorial,serif}
+.arch{position:absolute;width:1100px;left:-28px;top:880px;filter:drop-shadow(4px 10px 4px #26313d30);z-index:3}.arch img{width:100%;display:block}.model{position:absolute;width:650px;left:245px;top:512px;z-index:12;transform-origin:50% 95%;filter:drop-shadow(5px 0 0 #fffdf2) drop-shadow(-5px 0 0 #fffdf2) drop-shadow(0 5px 0 #fffdf2) drop-shadow(0 -5px 0 #fffdf2) drop-shadow(7px 11px 3px #19273335)}.model img{width:100%;display:block}
+.pavement{position:absolute;left:-100px;top:1415px;width:1280px;height:172px;background:#a6aaa5;border:10px solid #fffdf0;z-index:4;box-shadow:4px 8px 2px #26313d32;clip-path:polygon(0 5%,15% 1%,33% 4%,52% 0,71% 3%,89% 1%,100% 5%,99% 97%,73% 99%,50% 96%,24% 100%,0 96%)}.pavement:after{content:"";position:absolute;inset:25px 0;background:repeating-linear-gradient(105deg,#efeadf 0 57px,transparent 57px 119px)}
+.circle{position:absolute;left:810px;top:575px;width:158px;height:158px;background:#d9b65f;border-radius:51% 49% 48% 52%;box-shadow:3px 5px 1px #222b371c}.note{position:absolute;left:77px;top:700px;font:italic 36px Editorial,serif;z-index:17;line-height:1.65}.arrow{position:absolute;left:100px;top:810px;width:128px;height:135px;z-index:16}.arrow path{stroke:#315b82;stroke-width:3.5;fill:none;stroke-linecap:round;stroke-linejoin:round}.look{position:absolute;left:76px;top:1652px;background:#fffdf1;padding:23px 31px 24px;width:604px;z-index:25;box-shadow:5px 9px 3px #26313d26}.look:before{content:"";position:absolute;left:214px;top:-19px;width:142px;height:35px;background:#c9b98d9c;clip-path:polygon(2% 0,99% 4%,96% 100%,0 94%)}.look .small{line-height:36px;font-size:21px;letter-spacing:3px}.look .name{font:italic 44px Editorial,serif;margin-top:16px}.footer{position:absolute;left:79px;bottom:68px;font-size:21px;letter-spacing:3px}.footnum{position:absolute;right:78px;bottom:65px;font:italic 28px Editorial,serif}
+.book{position:absolute;right:80px;top:1490px;width:195px;height:142px;z-index:20}.book svg{width:100%;height:100%;filter:drop-shadow(5px 8px 2px #26313d3d)}
+#b-title{left:82px;top:170px;gap:6px}#b-title .letter{width:174px;font-size:107px}#b-subtitle{position:absolute;top:340px;left:86px;font:italic 64px Editorial,serif}.b-arch{left:285px;top:820px;width:830px}.b-model{left:40px;top:565px;width:630px}.b-note{left:755px;top:620px;font-size:32px}.b-time{left:82px;top:465px}.b-look{left:460px;top:1670px;width:530px}.b-look .name{font-size:40px}.b-look:before{left:170px}.b-circle{top:590px;left:770px;background:#e5b15e}.b-pave{background:#aebda4}
+#turner{position:absolute;inset:0;z-index:100;pointer-events:none}.leaf{position:absolute;left:-170px;top:-300px;width:1450px;height:2500px;background:#f8f3e7;box-shadow:16px 18px 35px #18243760;transform-origin:3% 50%;border-left:28px solid #315b82;overflow:hidden}.leaf .rule{position:absolute;inset:100px 100px;background:repeating-linear-gradient(0deg,transparent 0 65px,#7d8a962a 65px 67px);border-left:2px solid #b17b6970}.leaf .print{position:absolute;left:215px;top:630px;font-family:Editorial,serif;width:950px}.leaf .print .chapter{font-family:Label,sans-serif;font-size:35px;letter-spacing:8px}.leaf .print h1{font-weight:400;font-size:180px;line-height:1.05;letter-spacing:-6px;margin:55px 0;width:900px}.leaf .print p{font-size:45px;font-style:italic}.leaf .number{position:absolute;bottom:300px;left:200px;font:40px Editorial,serif}
+</style></head><body>
+<div data-hf-id="hf-su5o" id="root" data-composition-id="paper-days" data-start="0" data-duration="5.5" data-width="1080" data-height="1920" data-fps="24">
+<div data-hf-id="hf-fuk7" id="scene-a" class="scene clip" data-start="0" data-duration="3.26" data-track-index="0"><div data-hf-id="hf-v4bq" class="stage" data-layout-allow-occlusion="">
+<div data-hf-id="hf-3wvq" class="topstrip">A LITTLE CAMPUS DETOUR</div><div data-hf-id="hf-kukp" class="folio">01 / 02</div>
+<div data-hf-id="hf-r2ru" id="a-title" class="title" data-layout-allow-overlap=""><span data-hf-id="hf-lomz" class="letter">P</span><span data-hf-id="hf-j2hn" class="letter alt">A</span><span data-hf-id="hf-w294" class="letter slim">P</span><span data-hf-id="hf-qumc" class="letter">E</span><span data-hf-id="hf-v9n2" class="letter slim">R</span></div>
+<div data-hf-id="hf-6hxt" id="a-days" class="title second" data-layout-allow-overlap=""><span data-hf-id="hf-gshl" class="letter yellow">D</span><span data-hf-id="hf-sfug" class="letter">A</span><span data-hf-id="hf-lw08" class="letter ink">Y</span><span data-hf-id="hf-a1a4" class="letter yellow">S</span></div>
+<div data-hf-id="hf-od0y" id="a-time" class="label time" data-layout-allow-overflow="">09:30 &#160; CAMPUS</div><div data-hf-id="hf-3ite" id="a-sun" class="circle"></div>
+<div data-hf-id="hf-j0tl" id="a-arch" class="arch" data-layout-allow-overflow=""><img data-hf-id="hf-2est" src="assets/campus.png" alt="Campus building paper cutout"></div>
+<div data-hf-id="hf-wx39" id="a-road" class="pavement" data-layout-allow-overflow=""></div>
+<div data-hf-id="hf-jx8y" id="a-model" class="model"><img data-hf-id="hf-wnl4" src="assets/model.png" alt="Model in blue shirt and jeans"></div>
+<div data-hf-id="hf-ka4c" id="a-note" class="note"><div data-hf-id="hf-ok50">a slow</div><div data-hf-id="hf-rn02">morning.</div></div>
+<svg data-hf-id="hf-kbcc" id="a-arrow" class="arrow" viewBox="0 0 128 135"><path data-hf-id="hf-mc69" d="M25 8 C-5 55 20 100 105 108 M87 90 L108 108 L82 117" /></svg>
+<div data-hf-id="hf-zsy4" id="a-look" class="look"><div data-hf-id="hf-qqr1" class="small">LOOK 01 / EVERYDAY BLUE</div><div data-hf-id="hf-o5u4" class="name">A shirt. A bag. A day.</div></div>
+<div data-hf-id="hf-gmn8" id="a-book" class="book"><svg data-hf-id="hf-vbea" viewBox="0 0 220 160"><path data-hf-id="hf-e4nf" d="M9 23 Q59 2 109 22 Q158 2 209 23 L211 143 Q158 122 110 143 Q59 122 7 143Z" fill="#315b82" stroke="#fffdf1" stroke-width="8" /><path data-hf-id="hf-fw71" d="M17 23 Q66 4 109 27 L109 134 Q63 113 17 134Z" fill="#fff7df" /><path data-hf-id="hf-gvcf" d="M111 27 Q159 5 202 23 L202 134 Q156 114 111 134Z" fill="#eee5cf" /><path data-hf-id="hf-gr96" d="M110 26V140 M31 48Q70 37 94 48 M31 65Q70 54 94 65 M31 82Q70 71 94 82 M126 47Q160 36 187 47 M126 65Q160 54 187 65 M126 83Q160 72 187 83" fill="none" stroke="#a4a399" stroke-width="3" /></svg></div>
+<div data-hf-id="hf-4jko" class="footer">COLLECT LITTLE MOMENTS.</div><div data-hf-id="hf-x1ay" class="footnum">paper / 01</div><div data-hf-id="hf-h60x" class="grain"></div>
+</div></div>
+<div data-hf-id="hf-fcbr" id="scene-b" class="scene clip" data-start="3.26" data-duration="2.24" data-track-index="1"><div data-hf-id="hf-qey2" class="stage" data-layout-allow-occlusion="">
+<div data-hf-id="hf-pygo" class="topstrip">TAKE THE SCENIC WAY HOME</div><div data-hf-id="hf-rfry" class="folio">02 / 02</div>
+<div data-hf-id="hf-d3dd" id="b-title" class="title" data-layout-allow-overlap=""><span data-hf-id="hf-efww" class="letter">A</span><span data-hf-id="hf-h2yi" class="letter alt">F</span><span data-hf-id="hf-k3ev" class="letter">T</span><span data-hf-id="hf-tu4s" class="letter ink">E</span><span data-hf-id="hf-kw0x" class="letter">R</span></div>
+<div data-hf-id="hf-d9xy" id="b-subtitle">class, a little detour.</div><div data-hf-id="hf-5mmj" id="b-time" class="label time b-time">10:00 &#160; BOOKSHOP</div>
+<div data-hf-id="hf-2wyo" id="b-sun" class="circle b-circle"></div><div data-hf-id="hf-g5su" id="b-arch" class="arch b-arch"><img data-hf-id="hf-jb99" src="assets/bookshop.png" alt="Bookshop paper cutout"></div><div data-hf-id="hf-fz5x" id="b-road" class="pavement b-pave" data-layout-allow-overflow=""></div>
+<div data-hf-id="hf-zgwb" id="b-model" class="model b-model"><img data-hf-id="hf-n8nz" src="assets/model.png" alt="Same outfit retained"></div>
+<div data-hf-id="hf-b65m" id="b-note" class="note b-note"><div data-hf-id="hf-vq9h">one more</div><div data-hf-id="hf-5o0v">page.</div></div>
+<div data-hf-id="hf-72h5" id="b-look" class="look b-look"><div data-hf-id="hf-58lc" class="small">SAME LOOK / NEW CHAPTER</div><div data-hf-id="hf-z1qb" class="name">Everyday, in blue.</div></div>
+<div data-hf-id="hf-lyeo" class="footer">COLLECT LITTLE MOMENTS.</div><div data-hf-id="hf-xflz" class="footnum">paper / 02</div><div data-hf-id="hf-3l5h" class="grain"></div>
+</div></div>
+<div data-hf-id="hf-hc8k" id="turner" class="clip" data-start="0" data-duration="3.92" data-track-index="2"><div data-hf-id="hf-fj26" id="leaf" class="leaf" data-layout-ignore="" data-layout-allow-overflow=""><div data-hf-id="hf-a46i" class="rule"></div><div data-hf-id="hf-3ho5" class="print"><div data-hf-id="hf-yvj6" class="chapter">CHAPTER TWO</div><h1 data-hf-id="hf-6lb4">One more page.</h1><p data-hf-id="hf-gslt">A little detour after class.</p></div><div data-hf-id="hf-crgx" class="number">02</div><div data-hf-id="hf-4s2k" class="grain"></div></div></div>
+<audio data-hf-id="hf-5vrg" id="paper-audio" class="clip" src="assets/sound.wav" data-start="0" data-duration="5.5" data-track-index="3" data-volume="0.65"></audio>
+</div>
+<script>
+window.__timelines=window.__timelines||{};const tl=gsap.timeline({paused:true});
+
+gsap.set('#leaf',{x:1580,rotation:9});
+const angle=[-5,3,-3,4,-4,3,-4,2,-3];
+document.querySelectorAll('#a-title .letter,#a-days .letter').forEach((el,i)=>{tl.fromTo(el,{y:-200,rotation:angle[i]-12,opacity:0},{y:0,rotation:angle[i],opacity:1,duration:.36,ease:'back.out(1.35)'},.12+i*.045);});
+tl.fromTo('#a-model',{x:-630,y:100,rotation:-9,opacity:0},{x:0,y:0,rotation:0,opacity:1,duration:.68,ease:'power3.out'},.15);
+tl.fromTo('#a-road',{x:1200,rotation:3},{x:0,rotation:-2,duration:.55,ease:'expo.out'},.53);
+tl.fromTo('#a-arch',{y:300,rotation:4,opacity:0},{y:0,rotation:0,opacity:1,duration:.55,ease:'power2.out'},.7);
+tl.fromTo('#a-sun',{scale:0,rotation:-30},{scale:1,rotation:0,duration:.42,ease:'back.out(1.6)'},.95);
+tl.fromTo('#a-time',{x:-430,rotation:-6},{x:0,rotation:-2,duration:.33,ease:'circ.out'},1.05);
+tl.fromTo('#a-note',{opacity:0,rotation:-5},{opacity:1,rotation:-5,duration:.25},1.27);
+tl.fromTo('#a-arrow',{opacity:0,scale:.7},{opacity:1,scale:1,duration:.3,ease:'sine.out'},1.45);
+tl.fromTo('#a-look',{y:170,rotation:7,opacity:0},{y:0,rotation:-3,opacity:1,duration:.43,ease:'back.out(1.1)'},1.42);
+tl.fromTo('#a-book',{y:250,rotation:-20,opacity:0},{y:0,rotation:9,opacity:1,duration:.38,ease:'power2.out'},1.65);
+tl.to('#a-book',{scale:1.14,rotation:-5,duration:.22,ease:'power2.inOut'},2.58);
+tl.to('#leaf',{x:0,rotation:0,duration:.5,ease:'power2.inOut'},2.75);
+
+tl.to('#leaf',{x:-1640,rotation:-8,duration:.6,ease:'power2.inOut'},3.29);
+// Scene B builds beneath the moving opaque page.
+document.querySelectorAll('#b-title .letter').forEach((el,i)=>tl.fromTo(el,{y:-80,rotation:angle[i]-8,opacity:0},{y:0,rotation:angle[i],opacity:1,duration:.3,ease:'back.out(1.2)'},3.3+i*.035));
+tl.fromTo('#b-subtitle',{x:50,opacity:0},{x:0,opacity:1,duration:.4,ease:'sine.out'},3.45);
+tl.fromTo('#b-model',{x:210,rotation:4},{x:0,rotation:-1,duration:.65,ease:'power3.out'},3.38);
+tl.fromTo('#b-arch',{x:230,rotation:-5},{x:0,rotation:1,duration:.55,ease:'expo.out'},3.5);
+tl.fromTo('#b-road',{x:-1000,rotation:-2},{x:0,rotation:1,duration:.5,ease:'power2.out'},3.35);
+tl.fromTo('#b-time',{y:-45,rotation:1,opacity:0},{y:0,rotation:1,opacity:1,duration:.3,ease:'circ.out'},3.65);
+tl.fromTo('#b-sun',{scale:0},{scale:1,duration:.35,ease:'back.out(1.4)'},3.68);
+tl.fromTo('#b-note',{opacity:0,rotation:7},{opacity:1,rotation:7,duration:.3},3.93);
+tl.fromTo('#b-look',{y:110,rotation:4,opacity:0},{y:0,rotation:2,opacity:1,duration:.4,ease:'back.out(1.1)'},4.03);
+tl.seek(0);window.__timelines['paper-days']=tl;
+</script></body></html>

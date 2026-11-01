@@ -1,0 +1,842 @@
+[
+  {
+    "sha256": "70ad7aa665cb7fcd9dff8b9aad5a1f8a7e629d9b81159d11c1df036328c9e9c0",
+    "path": "assets/images/70ad7aa665cb-image.jpg",
+    "bytes": 116680,
+    "aliases": [
+      "outputs/纸片剧场-预览.jpg"
+    ]
+  },
+  {
+    "sha256": "1b88ea77870909bfeeace328eedfb9b765acef4ee9a8f6997ee880781cda274c",
+    "path": "assets/images/1b88ea778709-image.jpg",
+    "bytes": 25626,
+    "aliases": [
+      "outputs/红衣人物循环-v2/四姿态总览.jpg"
+    ]
+  },
+  {
+    "sha256": "6c95cb5a883a0a5f88578c4c9a68a214e1b28fa831770f279202520e849ff735",
+    "path": "assets/images/6c95cb5a883a-pose-D.png",
+    "bytes": 1389918,
+    "aliases": [
+      "outputs/红衣人物循环-v2/pose-D.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/pose-D.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/pose-D.png",
+      "work/shanghai-citywalk/assets/pose-D.png",
+      "work/shanghai-citywalk-v2/assets/pose-D.png"
+    ]
+  },
+  {
+    "sha256": "259ed764fc146d5f7f2e2e9d50dd1bb52c0d7dacf2316a8d36790b5a9e12c9ab",
+    "path": "assets/images/259ed764fc14-pose-A.png",
+    "bytes": 1455601,
+    "aliases": [
+      "outputs/红衣人物循环-v2/pose-A.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/pose-A.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/pose-A.png",
+      "work/shanghai-citywalk/assets/pose-A.png",
+      "work/shanghai-citywalk-v2/assets/pose-A.png"
+    ]
+  },
+  {
+    "sha256": "d1d906d327f631108418da9065e3aab7cc7b198a54408e2d53eff88e0ba4cec4",
+    "path": "assets/images/d1d906d327f6-pose-C.png",
+    "bytes": 1397659,
+    "aliases": [
+      "outputs/红衣人物循环-v2/pose-C.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/pose-C.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/pose-C.png",
+      "work/shanghai-citywalk/assets/pose-C.png",
+      "work/shanghai-citywalk-v2/assets/pose-C.png"
+    ]
+  },
+  {
+    "sha256": "3c818d45d6bca0c82eb06ae325872fb6a0f0e95cea37950d28f4590871dac942",
+    "path": "assets/images/3c818d45d6bc-pose-B.png",
+    "bytes": 1418606,
+    "aliases": [
+      "outputs/红衣人物循环-v2/pose-B.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/pose-B.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/pose-B.png",
+      "work/shanghai-citywalk/assets/pose-B.png",
+      "work/shanghai-citywalk-v2/assets/pose-B.png"
+    ]
+  },
+  {
+    "sha256": "ff64f7fdba7133f651c0187f450aff0f3bada54b015f85a55c9a16f8cc086eab",
+    "path": "assets/images/ff64f7fdba71-image.jpg",
+    "bytes": 95979,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v3/成片检查.jpg"
+    ]
+  },
+  {
+    "sha256": "7eb9f1d0d65c59297366df017ed78d8db18cba2807cac8502936f161143d620e",
+    "path": "assets/images/7eb9f1d0d65c-image.jpg",
+    "bytes": 106422,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v4/两轮步态检查.jpg"
+    ]
+  },
+  {
+    "sha256": "775b80700c8b9868066a21a836516e819296fc302d102388650c7df2cf492bfc",
+    "path": "assets/images/775b80700c8b-image.jpg",
+    "bytes": 134762,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/原片场景复核.jpg"
+    ]
+  },
+  {
+    "sha256": "485892ac42cfab97b0b4a823be0a3cc58e593f927654c0ad5173d93c6267872b",
+    "path": "assets/images/485892ac42cf-image.jpg",
+    "bytes": 129363,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/成片检查.jpg"
+    ]
+  },
+  {
+    "sha256": "2516c16c4e62733d654a45268f1b92549795561c3ca646c5a0fbe3435045ff76",
+    "path": "assets/images/2516c16c4e62-image.jpg",
+    "bytes": 98743,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v1/成片检查.jpg"
+    ]
+  },
+  {
+    "sha256": "8452a60ba4197eb2951a95ab2e8593f31a024b47f70234e945166cf271d0e6da",
+    "path": "assets/images/8452a60ba419-image.jpg",
+    "bytes": 488279,
+    "aliases": [
+      "outputs/上海剪贴穿搭短片-v2/封面.jpg"
+    ]
+  },
+  {
+    "sha256": "cc6555c6e4aa054c6ae6d703ec479e18b42d1977ac53af0ff7c310465cfe8509",
+    "path": "assets/images/cc6555c6e4aa-image.jpg",
+    "bytes": 130772,
+    "aliases": [
+      "outputs/上海剪贴穿搭短片-v2/转场检查.jpg"
+    ]
+  },
+  {
+    "sha256": "0c8c3825c1b95d31aefdb87af40443feaa90b3ddaa924876e69a2d308e5ca6f4",
+    "path": "assets/images/0c8c3825c1b9-image.jpg",
+    "bytes": 331180,
+    "aliases": [
+      "outputs/逐帧复核/正面四姿态循环.jpg"
+    ]
+  },
+  {
+    "sha256": "61d5c8bd68ecdabe5303b84e2e4833c878845ae44f02a20ebe84e3ea8e4d5591",
+    "path": "assets/images/61d5c8bd68ec-48.jpg",
+    "bytes": 980551,
+    "aliases": [
+      "outputs/逐帧复核/侧面连续48帧.jpg"
+    ]
+  },
+  {
+    "sha256": "35059f99ed3d49671ffe6a8c62ade35c6eb61f64bc759926ef2e6c18087b7dea",
+    "path": "assets/images/35059f99ed3d-image.jpg",
+    "bytes": 307947,
+    "aliases": [
+      "outputs/逐帧复核/侧面六姿态循环.jpg"
+    ]
+  },
+  {
+    "sha256": "8999ca9164fcfdb4e98df36b1298840b83729fb3af72a0d9aadb9a5639f9ba2a",
+    "path": "assets/images/8999ca9164fc-five-scenes.jpg",
+    "bytes": 196620,
+    "aliases": [
+      "outputs/analysis-images/five-scenes.jpg"
+    ]
+  },
+  {
+    "sha256": "9e3807ee41bbdaf3fa37f45e6ee1de72b88a4680440814d8e26ffb5aee7afaad",
+    "path": "assets/images/9e3807ee41bb-ending.jpg",
+    "bytes": 129988,
+    "aliases": [
+      "outputs/analysis-images/ending.jpg"
+    ]
+  },
+  {
+    "sha256": "e3ab2df6191afb9d3b8400ac17ffb97a9a42c76f515509b23770bdd05635c8c7",
+    "path": "assets/images/e3ab2df6191a-object-transitions.jpg",
+    "bytes": 199575,
+    "aliases": [
+      "outputs/analysis-images/object-transitions.jpg"
+    ]
+  },
+  {
+    "sha256": "ee4d6ba9d0e733375883b0bef9ff5c31b21fa37f9d2b15d3652c6aa2eff71da5",
+    "path": "assets/images/ee4d6ba9d0e7-image.jpg",
+    "bytes": 360868,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/封面.jpg"
+    ]
+  },
+  {
+    "sha256": "0eecf369e43dd32f4286b6814225a876f4d9f607308ad40c2271ea27a68731ca",
+    "path": "assets/images/0eecf369e43d-image.jpg",
+    "bytes": 96506,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/转场与镜头检查.jpg"
+    ]
+  },
+  {
+    "sha256": "c26c75d1ea3ee8ce2a7d0e77a3ceb283aef8199c63e7a940007853b062a3cff4",
+    "path": "assets/images/c26c75d1ea3e-image.jpg",
+    "bytes": 74800,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/人物循环检查.jpg"
+    ]
+  },
+  {
+    "sha256": "22c863e35c3b7a4b1c867bd0bd5394ef04d3fc5bae5e09a216c9a16fd2c7f104",
+    "path": "assets/images/22c863e35c3b-image.jpg",
+    "bytes": 97206,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/动作检查.jpg"
+    ]
+  },
+  {
+    "sha256": "19d8b02bd16adea48771211394773caad02e5a421f9d4aabeb30833476da00ac",
+    "path": "assets/images/19d8b02bd16a-pose-D.png",
+    "bytes": 1641972,
+    "aliases": [
+      "outputs/人物动作贴图/pose-D.png"
+    ]
+  },
+  {
+    "sha256": "0fe94479c28ea42f26e2505c8c11eff36bb5c9db4249689abe134991a69f9fa9",
+    "path": "assets/images/0fe94479c28e-pose-A.png",
+    "bytes": 1706525,
+    "aliases": [
+      "outputs/人物动作贴图/pose-A.png"
+    ]
+  },
+  {
+    "sha256": "116ef92d54bd29fb4e0b83cb9e945d168eed9c6e1a3787cdb55330fd97c50862",
+    "path": "assets/images/116ef92d54bd-pose-C.png",
+    "bytes": 1652443,
+    "aliases": [
+      "outputs/人物动作贴图/pose-C.png"
+    ]
+  },
+  {
+    "sha256": "c96123a72419b87b9dbf9bee9c5627bfb79f67cf0ddd317744decd64fed5dfe7",
+    "path": "assets/images/c96123a72419-pose-B.png",
+    "bytes": 1661453,
+    "aliases": [
+      "outputs/人物动作贴图/pose-B.png"
+    ]
+  },
+  {
+    "sha256": "4194a80995bca730adba4f17ca2e16dd765b2a24d3d07736f9c6fe5a93dad3b9",
+    "path": "assets/images/4194a80995bc-04-city-bicycle.png",
+    "bytes": 2462890,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/04-city-bicycle.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/04-city-bicycle.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/04-city-bicycle.png",
+      "work/shanghai-citywalk/assets/04-city-bicycle.png",
+      "work/shanghai-citywalk-v2/assets/04-city-bicycle.png"
+    ]
+  },
+  {
+    "sha256": "b2a15918cd1ab5608dfe6341e9d5dcb7d44d7edba7ec64bb12bbbffc605e2805",
+    "path": "assets/images/b2a15918cd1a-02-plane-tree.png",
+    "bytes": 2876242,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/02-plane-tree.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/02-plane-tree.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/02-plane-tree-cafe.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/02-plane-tree.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/wipe-tree.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/02-plane-tree-cafe.png",
+      "work/shanghai-citywalk/assets/02-plane-tree.png",
+      "work/shanghai-citywalk/assets/02-plane-tree-cafe.png",
+      "work/shanghai-citywalk-v2/assets/02-plane-tree.png",
+      "work/shanghai-citywalk-v2/assets/wipe-tree.png",
+      "work/shanghai-citywalk-v2/assets/02-plane-tree-cafe.png"
+    ]
+  },
+  {
+    "sha256": "06a55fe0cbcd1d1ce7a9486d17633394c33fd6c1c631e52d71d03a7621cf3540",
+    "path": "assets/images/06a55fe0cbcd-image.png",
+    "bytes": 1113510,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/贴纸总览.png"
+    ]
+  },
+  {
+    "sha256": "ccfe785ec67bc2c92a0e97800adf122a7d09244dd7db4727b117ab5e6aba8104",
+    "path": "assets/images/ccfe785ec67b-06-crosswalk-ground.png",
+    "bytes": 2381213,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/06-crosswalk-ground.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/06-crosswalk-ground.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/06-crosswalk-ground.png",
+      "work/shanghai-citywalk/assets/06-crosswalk-ground.png",
+      "work/shanghai-citywalk-v2/assets/06-crosswalk-ground.png"
+    ]
+  },
+  {
+    "sha256": "6c7a2b86fffdc598b47e98d3204d8440874a25d68d7365f6453735f89d110a97",
+    "path": "assets/images/6c7a2b86fffd-07-wukang-road-sign.png",
+    "bytes": 1576552,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/07-wukang-road-sign.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/07-wukang-road-sign.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/07-wukang-road-sign.png",
+      "work/shanghai-citywalk/assets/07-wukang-road-sign.png",
+      "work/shanghai-citywalk-v2/assets/07-wukang-road-sign.png"
+    ]
+  },
+  {
+    "sha256": "0c64ec994cf4cbebdb0ef2874e5343cba766c66ce22d2bf93a4cd70885992d7e",
+    "path": "assets/images/0c64ec994cf4-03-corner-cafe.png",
+    "bytes": 2701579,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/03-corner-cafe.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/03-corner-cafe.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/03-corner-cafe.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/wipe-cafe.png",
+      "work/shanghai-citywalk/assets/03-corner-cafe.png",
+      "work/shanghai-citywalk-v2/assets/03-corner-cafe.png",
+      "work/shanghai-citywalk-v2/assets/wipe-cafe.png"
+    ]
+  },
+  {
+    "sha256": "b12bc5cbe49d2161f1504b6c600b52e92d404cf6d423156ef34dd34fc6ce933c",
+    "path": "assets/images/b12bc5cbe49d-05-coffee-cup.png",
+    "bytes": 1490804,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/05-coffee-cup.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/05-coffee-cup.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/wipe-cup.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/05-coffee-cup.png",
+      "work/shanghai-citywalk/assets/05-coffee-cup.png",
+      "work/shanghai-citywalk-v2/assets/wipe-cup.png",
+      "work/shanghai-citywalk-v2/assets/05-coffee-cup.png"
+    ]
+  },
+  {
+    "sha256": "98e6e4f49b8d6e19888f0ddbbdcba4e3c1fb176bafd73598f621d35fa1430a83",
+    "path": "assets/images/98e6e4f49b8d-01-wukang-building.png",
+    "bytes": 2061687,
+    "aliases": [
+      "outputs/上海纸质贴纸-v1/01-wukang-building.png",
+      "outputs/上海剪贴穿搭短片-v1/可编辑工程/assets/01-wukang-building.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/wipe-building.png",
+      "outputs/上海剪贴穿搭短片-v2/可编辑工程/assets/01-wukang-building.png",
+      "work/shanghai-citywalk/assets/01-wukang-building.png",
+      "work/shanghai-citywalk-v2/assets/wipe-building.png",
+      "work/shanghai-citywalk-v2/assets/01-wukang-building.png"
+    ]
+  },
+  {
+    "sha256": "d23f12e55a31d40b25b86b82dd3b4d4078f3ee60a586d6373dccc428dd27150a",
+    "path": "assets/images/d23f12e55a31-image.jpg",
+    "bytes": 168018,
+    "aliases": [
+      "outputs/上海剪贴穿搭短片-v1/封面.jpg"
+    ]
+  },
+  {
+    "sha256": "87440ecdd6252b387f875ad265eb1194f48fb377b1cbab7ad183a38014e17165",
+    "path": "assets/images/87440ecdd625-03.png",
+    "bytes": 1531604,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/新版人物动作/03-右侧腿向前.png",
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/gait-B.png",
+      "work/paris-citywalk-v2/assets/gait-B.png"
+    ]
+  },
+  {
+    "sha256": "480f674f182136ad13ea38d9bf0922913ac900e232b92ef8d0a14a337eb4f2c9",
+    "path": "assets/images/480f674f1821-01.png",
+    "bytes": 1565840,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/新版人物动作/01-左侧腿向前.png",
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/gait-A.png",
+      "work/paris-citywalk-v2/assets/gait-A.png"
+    ]
+  },
+  {
+    "sha256": "ac63255fa6a4ace46c8c6f1eb17888ed5f2facbcd4b1300c0a0d4a6c18f3b9ba",
+    "path": "assets/images/ac63255fa6a4-02.png",
+    "bytes": 1559566,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/新版人物动作/02-经过身体下方.png",
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/gait-P.png",
+      "work/paris-citywalk-v2/assets/gait-P.png"
+    ]
+  },
+  {
+    "sha256": "1f04edf8d626fcc9931c85e9d61a3de4b6ef790b33404fbcee5a2a5ab8527c4f",
+    "path": "assets/images/1f04edf8d626-walk-Q.png",
+    "bytes": 1463212,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/walk-Q.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/walk-Q.png",
+      "work/paris-citywalk/assets/walk-Q.png",
+      "work/paris-citywalk-v2/assets/walk-Q.png"
+    ]
+  },
+  {
+    "sha256": "19af9cb03120929c906e5b102f0260482b8a4d62491d83b42761763ecff23bb8",
+    "path": "assets/images/19af9cb03120-walk-P.png",
+    "bytes": 1578102,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/walk-P.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/walk-P.png",
+      "work/paris-citywalk/assets/walk-P.png",
+      "work/paris-citywalk-v2/assets/walk-P.png"
+    ]
+  },
+  {
+    "sha256": "0ef88e3e3685e183e43df143b1a14204d707fc67f83a3bf106eb4f08ea9aee1a",
+    "path": "assets/images/0ef88e3e3685-walk-A.png",
+    "bytes": 1615818,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/walk-A.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/walk-A.png",
+      "work/paris-citywalk/assets/walk-A.png",
+      "work/paris-citywalk-v2/assets/walk-A.png"
+    ]
+  },
+  {
+    "sha256": "e5a055b679aa4ae4441ee5d6105c9b20393987ccf7ea0141e171e05b20207b42",
+    "path": "assets/images/e5a055b679aa-postcard.png",
+    "bytes": 3320169,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/postcard.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/postcard.png",
+      "work/paris-citywalk/assets/postcard.png",
+      "work/paris-citywalk-v2/assets/postcard.png"
+    ]
+  },
+  {
+    "sha256": "48c482dc521808b6111d87bf9bd78fbcbd963f0ccef3030d757428b8dcb306b0",
+    "path": "assets/images/48c482dc5218-walk-B.png",
+    "bytes": 1645707,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/walk-B.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/walk-B.png",
+      "work/paris-citywalk/assets/walk-B.png",
+      "work/paris-citywalk-v2/assets/walk-B.png"
+    ]
+  },
+  {
+    "sha256": "874e734848ea8a709be7a8d69abc6d0f7855ba701657c086195437eb4644a6c0",
+    "path": "assets/images/874e734848ea-seine.png",
+    "bytes": 2818884,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/seine.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/seine.png",
+      "work/paris-citywalk/assets/seine.png",
+      "work/paris-citywalk-v2/assets/seine.png"
+    ]
+  },
+  {
+    "sha256": "94d7b06fe79dc4c535a4d0368987c82c710b3d814b50780300a0345878fa1b6a",
+    "path": "assets/images/94d7b06fe79d-metro.png",
+    "bytes": 2078544,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/metro.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/metro.png",
+      "work/paris-citywalk/assets/metro.png",
+      "work/paris-citywalk-v2/assets/metro.png"
+    ]
+  },
+  {
+    "sha256": "e6d0c3fa489cf5559f470a2d79fa99a31b04d4e09ee2c011db7a7faf883f7b7f",
+    "path": "assets/images/e6d0c3fa489c-haussmann.png",
+    "bytes": 2781461,
+    "aliases": [
+      "outputs/巴黎剪贴穿搭短片-v2/可编辑工程/assets/haussmann.png",
+      "outputs/巴黎剪贴穿搭短片-v1/可编辑工程/assets/haussmann.png",
+      "work/paris-citywalk/assets/haussmann.png",
+      "work/paris-citywalk-v2/assets/haussmann.png"
+    ]
+  },
+  {
+    "sha256": "7795e6a00b6f3265a8361998cb1c5185a9a6e12b3cd9045ebe7b9181fd143883",
+    "path": "assets/images/7795e6a00b6f-detail-glasses.png",
+    "bytes": 1697586,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/detail-glasses.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/portrait.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/ending-half.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/detail-glasses.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/portrait.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/ending-half.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/detail-glasses.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/portrait.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/ending-half.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/detail-glasses.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/portrait.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/ending-half.png",
+      "work/london-citywalk/assets/detail-glasses.png",
+      "work/london-citywalk/assets/portrait.png",
+      "work/london-citywalk/assets/ending-half.png",
+      "work/london-citywalk-v2/assets/detail-glasses.png",
+      "work/london-citywalk-v2/assets/portrait.png",
+      "work/london-citywalk-v2/assets/ending-half.png",
+      "work/london-citywalk-v3/assets/detail-glasses.png",
+      "work/london-citywalk-v3/assets/portrait.png",
+      "work/london-citywalk-v3/assets/ending-half.png",
+      "work/london-citywalk-v4/assets/detail-glasses.png",
+      "work/london-citywalk-v4/assets/portrait.png",
+      "work/london-citywalk-v4/assets/ending-half.png",
+      "work/london-citywalk-v5/assets/detail-glasses.png",
+      "work/london-citywalk-v5/assets/portrait.png",
+      "work/london-citywalk-v5/assets/ending-half.png"
+    ]
+  },
+  {
+    "sha256": "65bcf6c3a704a9e8c6974e5877a8f89b0612c6308c9e9ea7e96385b5249223cf",
+    "path": "assets/images/65bcf6c3a704-end-D.png",
+    "bytes": 1672089,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/end-D.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/pose-D.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/mini-D.png",
+      "work/london-citywalk/assets/end-D.png",
+      "work/london-citywalk/assets/pose-D.png",
+      "work/london-citywalk/assets/mini-D.png",
+      "work/london-citywalk-v2/assets/end-D.png",
+      "work/london-citywalk-v2/assets/pose-D.png",
+      "work/london-citywalk-v2/assets/mini-D.png",
+      "work/london-citywalk-v3/assets/end-D.png",
+      "work/london-citywalk-v3/assets/pose-D.png",
+      "work/london-citywalk-v3/assets/mini-D.png",
+      "work/london-citywalk-v4/assets/end-D.png",
+      "work/london-citywalk-v4/assets/pose-D.png",
+      "work/london-citywalk-v4/assets/mini-D.png"
+    ]
+  },
+  {
+    "sha256": "ce4c4ab272c11f1334098db717abf784951b3fad63a42a613f22a2b251fac643",
+    "path": "assets/images/ce4c4ab272c1-end-B.png",
+    "bytes": 1568103,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/end-B.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/mini-b.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/pose-B.png",
+      "work/london-citywalk/assets/end-B.png",
+      "work/london-citywalk/assets/mini-b.png",
+      "work/london-citywalk/assets/pose-B.png",
+      "work/london-citywalk-v2/assets/end-B.png",
+      "work/london-citywalk-v2/assets/mini-b.png",
+      "work/london-citywalk-v2/assets/pose-B.png",
+      "work/london-citywalk-v3/assets/end-B.png",
+      "work/london-citywalk-v3/assets/mini-b.png",
+      "work/london-citywalk-v3/assets/pose-B.png",
+      "work/london-citywalk-v4/assets/end-B.png",
+      "work/london-citywalk-v4/assets/mini-b.png",
+      "work/london-citywalk-v4/assets/pose-B.png"
+    ]
+  },
+  {
+    "sha256": "3372af6ed1748d543bf9059fc64de0272a3cc31e99f689413b65bbc75bf219fc",
+    "path": "assets/images/3372af6ed174-end-C.png",
+    "bytes": 1731983,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/end-C.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/mini-C.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/pose-C.png",
+      "work/london-citywalk/assets/end-C.png",
+      "work/london-citywalk/assets/mini-C.png",
+      "work/london-citywalk/assets/pose-C.png",
+      "work/london-citywalk-v2/assets/end-C.png",
+      "work/london-citywalk-v2/assets/mini-C.png",
+      "work/london-citywalk-v2/assets/pose-C.png",
+      "work/london-citywalk-v3/assets/end-C.png",
+      "work/london-citywalk-v3/assets/mini-C.png",
+      "work/london-citywalk-v3/assets/pose-C.png",
+      "work/london-citywalk-v4/assets/end-C.png",
+      "work/london-citywalk-v4/assets/mini-C.png",
+      "work/london-citywalk-v4/assets/pose-C.png"
+    ]
+  },
+  {
+    "sha256": "4d307e0d01e38c834db3574c8202c3b600fe1aafd39272ff8a40134d7a03c1a9",
+    "path": "assets/images/4d307e0d01e3-end-A.png",
+    "bytes": 1779507,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/end-A.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/detail-shoe.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/mini-a.png",
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/pose-A.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/detail-shoe.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/detail-shoe.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/detail-shoe.png",
+      "work/london-citywalk/assets/end-A.png",
+      "work/london-citywalk/assets/detail-shoe.png",
+      "work/london-citywalk/assets/mini-a.png",
+      "work/london-citywalk/assets/pose-A.png",
+      "work/london-citywalk-v2/assets/end-A.png",
+      "work/london-citywalk-v2/assets/detail-shoe.png",
+      "work/london-citywalk-v2/assets/mini-a.png",
+      "work/london-citywalk-v2/assets/pose-A.png",
+      "work/london-citywalk-v3/assets/end-A.png",
+      "work/london-citywalk-v3/assets/detail-shoe.png",
+      "work/london-citywalk-v3/assets/mini-a.png",
+      "work/london-citywalk-v3/assets/pose-A.png",
+      "work/london-citywalk-v4/assets/end-A.png",
+      "work/london-citywalk-v4/assets/detail-shoe.png",
+      "work/london-citywalk-v4/assets/mini-a.png",
+      "work/london-citywalk-v4/assets/pose-A.png",
+      "work/london-citywalk-v5/assets/detail-shoe.png"
+    ]
+  },
+  {
+    "sha256": "5eb6bec470773147cdd9fa1b7e892b5091f8acc03232d24d1dd240246e1d7886",
+    "path": "assets/images/5eb6bec47077-terrace.png",
+    "bytes": 2786614,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/terrace.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/terrace.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/terrace.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/terrace.png",
+      "work/london-citywalk/assets/terrace.png",
+      "work/london-citywalk-v2/assets/terrace.png",
+      "work/london-citywalk-v3/assets/terrace.png",
+      "work/london-citywalk-v4/assets/terrace.png",
+      "work/london-citywalk-v5/assets/terrace.png"
+    ]
+  },
+  {
+    "sha256": "caf5aeae7cb4f5cc5115bb8be3e9ec09782ae71e3138b5f4b21b1014b1226205",
+    "path": "assets/images/caf5aeae7cb4-westminster.png",
+    "bytes": 2547248,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/westminster.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/westminster.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/westminster.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/westminster.png",
+      "work/london-citywalk/assets/westminster.png",
+      "work/london-citywalk-v2/assets/westminster.png",
+      "work/london-citywalk-v3/assets/westminster.png",
+      "work/london-citywalk-v4/assets/westminster.png",
+      "work/london-citywalk-v5/assets/westminster.png"
+    ]
+  },
+  {
+    "sha256": "34590b9d4c38b762b9bee568419b4f8eb66b3c5b3392c8604334d56d1c6bd853",
+    "path": "assets/images/34590b9d4c38-bus.png",
+    "bytes": 2555709,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v1/可编辑工程/assets/bus.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/bus.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/bus.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/bus.png",
+      "work/london-citywalk/assets/bus.png",
+      "work/london-citywalk-v2/assets/bus.png",
+      "work/london-citywalk-v3/assets/bus.png",
+      "work/london-citywalk-v4/assets/bus.png",
+      "work/london-citywalk-v5/assets/bus.png"
+    ]
+  },
+  {
+    "sha256": "871380fcfb91b019c96b3a94f1cadf73d44b470e4fde9f0c8a1a61a12a2aac95",
+    "path": "assets/images/871380fcfb91-taxi.png",
+    "bytes": 2161998,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/taxi.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/taxi.png",
+      "work/london-citywalk-v5/assets/taxi.png"
+    ]
+  },
+  {
+    "sha256": "17ed98c2ce94bd825d0e629fc73ae706429dbb9327918339a3f279358bc11c00",
+    "path": "assets/images/17ed98c2ce94-cafe.png",
+    "bytes": 1769175,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/cafe.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/cafe.png",
+      "work/london-citywalk-v5/assets/cafe.png"
+    ]
+  },
+  {
+    "sha256": "0cc2b5080d29f22e2666a99b7c2f03066517ec5133e2bb908f839b206db2f199",
+    "path": "assets/images/0cc2b5080d29-flower-shop.png",
+    "bytes": 2774235,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/flower-shop.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/flower-shop.png",
+      "work/london-citywalk-v5/assets/flower-shop.png"
+    ]
+  },
+  {
+    "sha256": "2d0109d155d9b0e2ce5cab48da0b644c01cc67557900dd27a71cb469456eeae9",
+    "path": "assets/images/2d0109d155d9-road.png",
+    "bytes": 2262457,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/road.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/road.png",
+      "work/london-citywalk-v5/assets/road.png"
+    ]
+  },
+  {
+    "sha256": "11f2313330d1736fe6328f759012dd0cf47125df8e983fe97650333690f5f687",
+    "path": "assets/images/11f2313330d1-tube.png",
+    "bytes": 1840360,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/tube.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/tube.png",
+      "work/london-citywalk-v5/assets/tube.png"
+    ]
+  },
+  {
+    "sha256": "ea9bf97bf1abf3a5c2c0f830ccbc4be4b97e81f03cede9c70f9718ab4c74eef3",
+    "path": "assets/images/ea9bf97bf1ab-phone.png",
+    "bytes": 2545941,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/新增城市贴图/phone.png",
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/phone.png",
+      "work/london-citywalk-v5/assets/phone.png"
+    ]
+  },
+  {
+    "sha256": "88eef73d03bb0077ad95d65483eb2d00d05c70d0a9eb739e13b75337456f442a",
+    "path": "assets/images/88eef73d03bb-newspaper.png",
+    "bytes": 3255134,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/newspaper.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/newspaper.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/newspaper.png",
+      "work/london-citywalk-v2/assets/newspaper.png",
+      "work/london-citywalk-v3/assets/newspaper.png",
+      "work/london-citywalk-v4/assets/newspaper.png",
+      "work/london-citywalk-v5/assets/newspaper.png"
+    ]
+  },
+  {
+    "sha256": "eab82f552adae3a73038d0aa9db57429651d9bab44fdf2a5a1e858815d334e9b",
+    "path": "assets/images/eab82f552ada-walk-A.png",
+    "bytes": 1778708,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/walk-A.png",
+      "outputs/伦敦剪贴穿搭短片-v4/人物三帧/A-左腿前迈.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/walk-A.png",
+      "outputs/伦敦剪贴穿搭短片-v3/人物两帧/A-左腿前迈.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/walk-A.png",
+      "work/london-citywalk-v3/assets/walk-A.png",
+      "work/london-citywalk-v4/assets/walk-A.png",
+      "work/london-citywalk-v5/assets/walk-A.png"
+    ]
+  },
+  {
+    "sha256": "bb83f023a1649d913a4757b43056fcf04a76ceb0c714a8a18590d58526db1cd0",
+    "path": "assets/images/bb83f023a164-walk-C.png",
+    "bytes": 1624698,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/walk-C.png",
+      "outputs/伦敦剪贴穿搭短片-v4/人物三帧/C-双腿经过过渡.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/walk-C.png",
+      "work/london-citywalk-v4/assets/walk-C.png",
+      "work/london-citywalk-v5/assets/walk-C.png"
+    ]
+  },
+  {
+    "sha256": "14add3ac4cdd21f28305d85bc0bf6b654c83b5e9bc3b1caecc4203c5f5693836",
+    "path": "assets/images/14add3ac4cdd-walk-B.png",
+    "bytes": 1649392,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v5/可编辑工程/assets/walk-B.png",
+      "outputs/伦敦剪贴穿搭短片-v4/人物三帧/B-右腿前迈.png",
+      "outputs/伦敦剪贴穿搭短片-v4/可编辑工程/assets/walk-B.png",
+      "work/london-citywalk-v4/assets/walk-B.png",
+      "work/london-citywalk-v5/assets/walk-B.png"
+    ]
+  },
+  {
+    "sha256": "f1d6dec449fae09195fa8c7d639dd8428a29f4a8455525666ab8c66184ab52b6",
+    "path": "assets/images/f1d6dec449fa-B.png",
+    "bytes": 1627883,
+    "aliases": [
+      "outputs/伦敦剪贴穿搭短片-v3/人物两帧/B-右腿前迈.png",
+      "outputs/伦敦剪贴穿搭短片-v3/可编辑工程/assets/walk-B.png",
+      "work/london-citywalk-v3/assets/walk-B.png"
+    ]
+  },
+  {
+    "sha256": "e6135ffa59d533bb09d953639d0c61409380dde42012efec50f2377976ebc9fd",
+    "path": "assets/images/e6135ffa59d5-bookshop.png",
+    "bytes": 2905462,
+    "aliases": [
+      "work/campus-paper/assets/bookshop.png"
+    ]
+  },
+  {
+    "sha256": "4dc94681dd91d222972541755a15b508565ae5a00245b516d64f7ce0e01adb3f",
+    "path": "assets/images/4dc94681dd91-campus.png",
+    "bytes": 2514643,
+    "aliases": [
+      "work/campus-paper/assets/campus.png"
+    ]
+  },
+  {
+    "sha256": "7c81a35046f01d9f0ab5d262c6c24317abda2c05054ba3876503eb965e3993be",
+    "path": "assets/images/7c81a35046f0-model.png",
+    "bytes": 1351702,
+    "aliases": [
+      "work/campus-paper/assets/model.png"
+    ]
+  },
+  {
+    "sha256": "6355e970c02eb58a4357f481e3c6f7accfce3fde471d4db88ace27978983447c",
+    "path": "assets/images/6355e970c02e-leg.png",
+    "bytes": 1317421,
+    "aliases": [
+      "work/london-citywalk-v2/assets/leg.png",
+      "work/london-citywalk-v3/assets/leg.png",
+      "work/london-citywalk-v4/assets/leg.png"
+    ]
+  },
+  {
+    "sha256": "13e55b8719fbe38263251db9681bee15bf87cdb0f35200c0f21d616ae052a168",
+    "path": "assets/images/13e55b8719fb-rig.png",
+    "bytes": 1649771,
+    "aliases": [
+      "work/london-citywalk-v2/assets/rig.png",
+      "work/london-citywalk-v3/assets/rig.png",
+      "work/london-citywalk-v4/assets/rig.png"
+    ]
+  },
+  {
+    "sha256": "fe261397ff1d9ba779943a3a1d0f7b8a3d5902623ac106653a8faf822df7c902",
+    "path": "assets/images/fe261397ff1d-export-contact.jpg",
+    "bytes": 121373,
+    "aliases": [
+      "projects/campus-paper/export-contact.jpg"
+    ]
+  },
+  {
+    "sha256": "a7f4d173e3cc88246f0aceb4c99976d4f27a3fa677c8b28d96827fa73ab8cc83",
+    "path": "assets/images/a7f4d173e3cc-cup.jpg",
+    "bytes": 62562,
+    "aliases": [
+      "projects/shanghai-citywalk-v2/reference/cup.jpg"
+    ]
+  },
+  {
+    "sha256": "00f4e502a9a959d4d2720c1c70965bf4ed5907c4e704ba471d64f7d7f6cf9755",
+    "path": "assets/images/00f4e502a9a9-bus.jpg",
+    "bytes": 93163,
+    "aliases": [
+      "projects/shanghai-citywalk-v2/reference/bus.jpg"
+    ]
+  },
+  {
+    "sha256": "f38ce441fd9e09ab22cb6c4f95ea5635543f2ea82b18d8d1882603250e0b3655",
+    "path": "assets/images/f38ce441fd9e-tram.jpg",
+    "bytes": 80486,
+    "aliases": [
+      "projects/shanghai-citywalk-v2/reference/tram.jpg"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "tool": "built-in image_gen",
+  "assets": {
+    "tube": {
+      "prompt": "Photographic fashion-editorial paper cutout asset for a London citywalk collage animation. Real object photographed, then printed on matte magazine paper and hand-cut with a thin irregular warm-ivory paper edge, subtle visible fibres along edge. Realistic photograph, NOT illustration/cartoon, no plastic sticker shine. Restrained colour grade: ivory, charcoal, chocolate, muted oxblood or dark green; fashion magazine palette. True transparent outside silhouette, no backdrop or enormous drop shadow, no watermark. Full object inside generous margins. ONE freestanding London Underground street entrance fragment: iconic red roundel and navy UNDERGROUND bar on tall slender black post, small black wrought-iron staircase railings descending at its base. Three-quarter frontal photograph, compact coherent street fixture. Tall portrait layout, sign at top, railings at bottom. Do not add buildings, people, vehicles or floor rectangle. Text only UNDERGROUND legible.",
+      "file": "assets/tube.png"
+    },
+    "taxi": {
+      "prompt": "Photographic fashion-editorial paper cutout asset for a London citywalk collage animation. Real object photographed, then printed on matte magazine paper and hand-cut with a thin irregular warm-ivory paper edge, subtle visible fibres along edge. Realistic photograph, NOT illustration/cartoon, no plastic sticker shine. Restrained colour grade: ivory, charcoal, chocolate, muted oxblood or dark green; fashion magazine palette. True transparent outside silhouette, no backdrop or enormous drop shadow, no watermark. Full object inside generous margins. ONE classic black London taxi cab in clean side three-quarter view, facing RIGHT, four wheels correctly placed, small amber taxi roof light. Wide landscape asset; entire car isolated, no people, no street, no scenery. Subtle off-white paper outline following car silhouette. Dark glossy black car with photographic detail and restrained reflections.",
+      "file": "assets/taxi.png"
+    },
+    "flower-shop": {
+      "prompt": "Photographic fashion-editorial paper cutout asset for a London citywalk collage animation. Real object photographed, then printed on matte magazine paper and hand-cut with a thin irregular warm-ivory paper edge, subtle visible fibres along edge. Realistic photograph, NOT illustration/cartoon, no plastic sticker shine. Restrained colour grade: ivory, charcoal, chocolate, muted oxblood or dark green; fashion magazine palette. True transparent outside silhouette, no backdrop or enormous drop shadow, no watermark. Full object inside generous margins. ONE London neighbourhood flower shop and small bookshop storefront facade fragment. Front elevation of an elegant cream Victorian ground floor shop, deep forest-green striped retractable awning, open dark green doorway, book display in window, two abundant but tasteful buckets of flowers and one small pavement chalkboard. Low wide composition, one shop unit only, very little masonry above awning. Printed magazine cutout with scissor-cut irregular paper outline. No people, no street background, no text except small legible FLOWERS & BOOKS on fascia.",
+      "file": "assets/flower-shop.png"
+    },
+    "phone": {
+      "prompt": "One photographic paper-cutout asset for a refined London fashion citywalk collage. Real objects printed on matte magazine paper, thin irregular cream paper edge with fine fibres, restrained colours, realistic photographic detail. True transparent background outside silhouette; no solid rectangle or invented backdrop, no heavy drop shadow, no people, no watermark. Whole subject within margins. A single iconic British red telephone box in front three-quarter view, weathered deep oxblood red paint, small cream TELEPHONE sign, glass panes, classic domed crown. Tall portrait composition. No street, no lamp, no other objects. Clean cutout around booth.",
+      "file": "assets/phone.png"
+    },
+    "cafe": {
+      "prompt": "One photographic paper-cutout asset for a refined London fashion citywalk collage. Real objects printed on matte magazine paper, thin irregular cream paper edge with fine fibres, restrained colours, realistic photographic detail. True transparent background outside silhouette; no solid rectangle or invented backdrop, no heavy drop shadow, no people, no watermark. Whole subject within margins. A compact sidewalk cafe still-life cluster: one small round cream marble cafe table with a white espresso cup and folded newspaper on it; two mismatched dark bentwood bistro chairs; one tall potted olive tree in terracotta to the left. Front three-quarter view. Objects arranged as a readable low wide cluster, furniture legs visible and anatomically correct. No floor patch, no building, no enclosing background. Sophisticated chocolate, muted olive, ivory palette.",
+      "file": "assets/cafe.png"
+    },
+    "road": {
+      "prompt": "Photographic paper-cut collage asset, ONE very wide horizontal strip of London road with zebra crossing, viewed from a slightly elevated shallow angle so it acts as a flat stage in a fashion collage. Dark charcoal asphalt, six bold worn ivory zebra stripes, thin double yellow curb line along back edge, a narrow pale stone curb. A flat trapezoid/perspective strip, much wider than tall (about 4:1). Real photograph printed on matte magazine paper, irregular torn ivory paper border. All surrounding area truly transparent. No pavement buildings, no cars, no people, no letters, no scenery. Road strip only, full strip within margins. Restrained high-fashion magazine grain on road surface, paper fibres on edge. Landscape1536x1024.",
+      "file": "assets/road.png"
+    }
+  }
+}

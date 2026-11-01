@@ -1,0 +1,291 @@
+{
+  "width": 540,
+  "height": 960,
+  "fps": 24,
+  "duration": 9,
+  "background": "#eee8d8",
+  "assets": {
+    "walker": {
+      "frames": [
+        "../projects/paris-citywalk-v2/assets/gait-A.png",
+        "../projects/paris-citywalk-v2/assets/gait-P.png",
+        "../projects/paris-citywalk-v2/assets/gait-B.png",
+        "../projects/paris-citywalk-v2/assets/gait-P.png"
+      ],
+      "holds": [
+        8,
+        4,
+        8,
+        4
+      ],
+      "fps": 24
+    },
+    "building": {
+      "src": "../projects/paris-citywalk-v2/assets/haussmann.png"
+    },
+    "metro": {
+      "src": "../projects/paris-citywalk-v2/assets/metro.png"
+    },
+    "books": {
+      "src": "../projects/paris-citywalk-v2/assets/seine.png"
+    },
+    "card": {
+      "src": "../projects/paris-citywalk-v2/assets/postcard.png"
+    }
+  },
+  "audio": "../projects/paris-citywalk-v2/assets/soundtrack.wav",
+  "scenes": [
+    {
+      "start": 0,
+      "end": 3,
+      "background": "#eee5be",
+      "layers": [
+        {
+          "asset": "card",
+          "x": 125,
+          "y": 480,
+          "width": 330,
+          "rotation": -8,
+          "anchorY": 0.5
+        },
+        {
+          "type": "text",
+          "text": "Paris",
+          "x": 35,
+          "y": 65,
+          "fontSize": 85,
+          "paper": "#f7efd8"
+        },
+        {
+          "type": "text",
+          "text": "CITYWALK",
+          "x": 42,
+          "y": 167,
+          "fontSize": 25,
+          "paper": "#f7efd8"
+        },
+        {
+          "asset": "walker",
+          "x": 350,
+          "y": 890,
+          "width": 500,
+          "paperEdge": 3,
+          "jitter": {
+            "degrees": 0.2,
+            "y": 1
+          }
+        },
+        {
+          "type": "text",
+          "text": "A coffee. A little detour.",
+          "x": 30,
+          "y": 895,
+          "fontSize": 22
+        }
+      ]
+    },
+    {
+      "start": 3,
+      "end": 6,
+      "background": "#718ca1",
+      "layers": [
+        {
+          "type": "text",
+          "text": "Take the long way.",
+          "x": 28,
+          "y": 65,
+          "fontSize": 36,
+          "color": "#f8eed8"
+        },
+        {
+          "asset": "building",
+          "x": 170,
+          "y": 760,
+          "width": 430,
+          "rotation": -2
+        },
+        {
+          "asset": "metro",
+          "x": 465,
+          "y": 730,
+          "width": 230,
+          "start": 0.4,
+          "jitter": {
+            "degrees": 0.5,
+            "phase": 1
+          }
+        },
+        {
+          "type": "paper",
+          "x": -50,
+          "y": 770,
+          "width": 700,
+          "height": 120,
+          "rotation": 7,
+          "color": "#ddd8c4"
+        },
+        {
+          "asset": "books",
+          "x": 480,
+          "y": 850,
+          "width": 300,
+          "start": 1.3
+        },
+        {
+          "asset": "walker",
+          "x": 280,
+          "y": 870,
+          "width": 410,
+          "paperEdge": 3,
+          "keyframes": [
+            {
+              "t": 0,
+              "x": 230,
+              "y": 820
+            },
+            {
+              "t": 3,
+              "x": 330,
+              "y": 890
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Coffee. Corners. Bookstalls.",
+          "x": 27,
+          "y": 916,
+          "fontSize": 22,
+          "paper": "#eee5ae"
+        }
+      ]
+    },
+    {
+      "start": 6,
+      "end": 9,
+      "background": "#eee8d8",
+      "layers": [
+        {
+          "type": "text",
+          "text": "Collected moments.",
+          "x": 30,
+          "y": 70,
+          "fontSize": 38
+        },
+        {
+          "asset": "card",
+          "x": 270,
+          "y": 435,
+          "width": 485,
+          "rotation": -6,
+          "anchorY": 0.5
+        },
+        {
+          "asset": "books",
+          "x": 140,
+          "y": 840,
+          "width": 310
+        },
+        {
+          "asset": "walker",
+          "x": 390,
+          "y": 835,
+          "width": 320,
+          "paperEdge": 2
+        },
+        {
+          "type": "text",
+          "text": "Paris Citywalk",
+          "x": 34,
+          "y": 870,
+          "fontSize": 48,
+          "paper": "#f7efd8"
+        }
+      ]
+    }
+  ],
+  "overlays": [
+    {
+      "asset": "card",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "start": 2.6,
+      "end": 3.45,
+      "anchorY": 0.5,
+      "keyframes": [
+        {
+          "t": 2.6,
+          "x": -1900,
+          "y": 1250,
+          "width": 2000,
+          "rotation": -20
+        },
+        {
+          "t": 2.93,
+          "x": 270,
+          "y": 480,
+          "width": 2000,
+          "rotation": 0,
+          "ease": "smooth"
+        },
+        {
+          "t": 3.08,
+          "x": 270,
+          "y": 480,
+          "width": 2000,
+          "rotation": 0
+        },
+        {
+          "t": 3.45,
+          "x": 2450,
+          "y": -300,
+          "width": 2000,
+          "rotation": 18,
+          "ease": "smooth"
+        }
+      ]
+    },
+    {
+      "asset": "card",
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "start": 5.6,
+      "end": 6.45,
+      "anchorY": 0.5,
+      "keyframes": [
+        {
+          "t": 5.6,
+          "x": 2100,
+          "y": -600,
+          "width": 2000,
+          "rotation": 25
+        },
+        {
+          "t": 5.92,
+          "x": 270,
+          "y": 480,
+          "width": 2000,
+          "rotation": 0,
+          "ease": "smooth"
+        },
+        {
+          "t": 6.08,
+          "x": 270,
+          "y": 480,
+          "width": 2000,
+          "rotation": 0
+        },
+        {
+          "t": 6.45,
+          "x": -1700,
+          "y": 1400,
+          "width": 2000,
+          "rotation": -15,
+          "ease": "smooth"
+        }
+      ]
+    }
+  ]
+}

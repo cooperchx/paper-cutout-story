@@ -1,0 +1,112 @@
+[
+  {
+    "id": "shanghai-v1",
+    "path": "media/videos/shanghai-v1.mp4",
+    "gif": "media/gifs/shanghai-v1.gif",
+    "sha256": "f2eb3173159918b98f6106a629801a4d87b77c2b4149f70fe351ed5b4f4971d5",
+    "source": "outputs/上海剪贴穿搭短片-v1/上海散步-剪贴动画.mp4",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "shanghai-v2",
+    "path": "media/videos/shanghai-v2.mp4",
+    "gif": "media/gifs/shanghai-v2.gif",
+    "sha256": "236689c8dd179c6b257e4b52f3c6854cd7b70a97b8f02f0a60db703404790798",
+    "source": "outputs/上海剪贴穿搭短片-v2/Shanghai-Citywalk-v2.mp4",
+    "duration": 12.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "london-v1",
+    "path": "media/videos/london-v1.mp4",
+    "gif": "media/gifs/london-v1.gif",
+    "sha256": "34ed4a5437e6c93daf5689bee67cb30c4bc27b86f2ae9d01f0d181e492f419df",
+    "source": "outputs/伦敦剪贴穿搭短片-v1/London-Citywalk.mp4",
+    "duration": 15.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "london-v3",
+    "path": "media/videos/london-v3.mp4",
+    "gif": "media/gifs/london-v3.gif",
+    "sha256": "c6ad580c4ada5b7c63dacde364f6658b0f14148fe11286b7f181f89068d3d023",
+    "source": "outputs/伦敦剪贴穿搭短片-v3/London-Citywalk-v3.mp4",
+    "duration": 15.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "london-v4",
+    "path": "media/videos/london-v4.mp4",
+    "gif": "media/gifs/london-v4.gif",
+    "sha256": "8c6c797477f4c5f00113d103f012eafb7be8ce82db5fe3d992844c4ba83f4772",
+    "source": "outputs/伦敦剪贴穿搭短片-v4/London-Citywalk-v4.mp4",
+    "duration": 15.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "london-three-pose-loop",
+    "path": "media/videos/london-three-pose-loop.mp4",
+    "gif": "media/gifs/london-three-pose-loop.gif",
+    "sha256": "1208ba35afbbc96b99ba777ddeb835452289c559049efa512c7a654c16559ef5",
+    "source": "outputs/伦敦剪贴穿搭短片-v4/两轮步态预览.mp4",
+    "duration": 2.0,
+    "width": 540,
+    "height": 960
+  },
+  {
+    "id": "london-v5",
+    "path": "media/videos/london-v5.mp4",
+    "gif": "media/gifs/london-v5.gif",
+    "sha256": "da5a0e9fc69f015d36fc21da7d7e0d0e278e7f275e3d80829614c546868b9f9d",
+    "source": "outputs/伦敦剪贴穿搭短片-v5/London-Citywalk-v5.mp4",
+    "duration": 15.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "paris-v1",
+    "path": "media/videos/paris-v1.mp4",
+    "gif": "media/gifs/paris-v1.gif",
+    "sha256": "a3688fa85171ad8806a5d95fc5666272f5d1ff0e44e4fff3645e6137842924ee",
+    "source": "outputs/巴黎剪贴穿搭短片-v1/Paris-Citywalk.mp4",
+    "duration": 9.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "paris-v2",
+    "path": "media/videos/paris-v2.mp4",
+    "gif": "media/gifs/paris-v2.gif",
+    "sha256": "6a29be13878120b86fe06ae1652e8ae5a0854972cf923bbedc1109a97dee91a4",
+    "source": "outputs/巴黎剪贴穿搭短片-v2/Paris-Citywalk-v2.mp4",
+    "duration": 9.0,
+    "width": 1080,
+    "height": 1920
+  },
+  {
+    "id": "red-outfit-pose-loop",
+    "path": "media/videos/red-outfit-pose-loop.mp4",
+    "gif": "media/gifs/red-outfit-pose-loop.gif",
+    "sha256": "73ccc3c07f0a7cb2153615b524cef43635d1ddd2967befc2299ae950bc0fdb7c",
+    "source": "outputs/红衣人物循环-v2/四姿态循环预览.mp4",
+    "duration": 4.0,
+    "width": 720,
+    "height": 1080
+  },
+  {
+    "id": "campus-first-test",
+    "path": "media/videos/campus-first-test.mp4",
+    "gif": "media/gifs/campus-first-test.gif",
+    "sha256": "db009741ab8caf1f7aec7a1d66cd38bb4c220ca129ea7d0b0739b5e5d7e804ec",
+    "source": "outputs/纸片剧场-校园试片.mp4",
+    "duration": 5.5,
+    "width": 1080,
+    "height": 1920
+  }
+]

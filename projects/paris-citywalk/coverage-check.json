@@ -1,0 +1,21 @@
+{
+  "sourceDimensions": [
+    1536,
+    1024
+  ],
+  "viewportCropAtFullCoverage": [
+    537,
+    102,
+    998,
+    921
+  ],
+  "alphaRange": [
+    248,
+    254
+  ],
+  "cutTimes": [
+    2.55,
+    6.25
+  ],
+  "opaqueFilter": "alpha at or above0.8 maps to1"
+}

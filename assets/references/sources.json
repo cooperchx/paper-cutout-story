@@ -1,0 +1,32 @@
+[
+  {
+    "id": "blue-shirt-model",
+    "path": "assets/references/blue-shirt-model.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  },
+  {
+    "id": "red-outfit-model",
+    "path": "assets/references/red-outfit-model.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  },
+  {
+    "id": "cut-type-reference",
+    "path": "assets/references/cut-type-reference.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  },
+  {
+    "id": "london-model",
+    "path": "assets/references/london-model.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  },
+  {
+    "id": "portrait-collage-reference",
+    "path": "assets/references/portrait-collage-reference.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  },
+  {
+    "id": "paris-model",
+    "path": "assets/references/paris-model.png",
+    "source": "User-supplied visual reference; original photographer/designer not independently verified; not MIT licensed"
+  }
+]

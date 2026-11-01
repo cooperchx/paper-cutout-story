@@ -1,0 +1,52 @@
+{
+  "framesChecked": 359,
+  "errors": [],
+  "samples": [
+    {
+      "f": 32,
+      "pose": "A"
+    },
+    {
+      "f": 36,
+      "pose": "A"
+    },
+    {
+      "f": 40,
+      "pose": "B"
+    },
+    {
+      "f": 44,
+      "pose": "B"
+    },
+    {
+      "f": 48,
+      "pose": "A"
+    },
+    {
+      "f": 52,
+      "pose": "A"
+    },
+    {
+      "f": 56,
+      "pose": "B"
+    },
+    {
+      "f": 60,
+      "pose": "B"
+    },
+    {
+      "f": 64,
+      "pose": "A"
+    }
+  ],
+  "cycle": {
+    "imageCount": 2,
+    "holdFrames": 8,
+    "fps": 24,
+    "cycleFrames": 16
+  },
+  "transitionSources": [
+    "assets/bus.png",
+    "assets/newspaper.png"
+  ]
+}

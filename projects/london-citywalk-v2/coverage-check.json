@@ -1,0 +1,29 @@
+{
+  "bus": {
+    "sourceCrop": [
+      170,
+      158,
+      546,
+      826
+    ],
+    "minAlpha": 252,
+    "fullyOpaqueAfterTransfer": true,
+    "cutAt": 5.1
+  },
+  "ticket": {
+    "opaqueCore": [
+      -140,
+      -168,
+      1215,
+      2111
+    ],
+    "viewport": [
+      0,
+      0,
+      1080,
+      1920
+    ],
+    "cutAt": 10.2,
+    "fullyCovered": true
+  }
+}

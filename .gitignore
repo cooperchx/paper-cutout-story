@@ -1,0 +1,9 @@
+node_modules/
+.hyperframes/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+rendered/
+.tmp/

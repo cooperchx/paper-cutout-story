@@ -1,0 +1,77 @@
+{
+  "framesChecked": 359,
+  "errors": [],
+  "groundError": 0,
+  "cycleSeconds": 1.3333333333333333,
+  "leftRightPhaseOffset": 0.5,
+  "animationUpdatesPerSecond": 12,
+  "samples": [
+    {
+      "f": 32,
+      "nearX": 130,
+      "farX": -130,
+      "arm": "rotate(13)",
+      "bag": "rotate(3.644843137107056)"
+    },
+    {
+      "f": 36,
+      "nearX": 65,
+      "farX": -91.92388155425118,
+      "arm": "rotate(9.19238815542512)",
+      "bag": "rotate(4.997532801828658)"
+    },
+    {
+      "f": 40,
+      "nearX": -1.1368683772161603e-13,
+      "farX": 1.7053025658242404e-13,
+      "arm": "rotate(-1.9112536814974357e-14)",
+      "bag": "rotate(3.422735529643435)"
+    },
+    {
+      "f": 44,
+      "nearX": -65,
+      "farX": 91.92388155425118,
+      "arm": "rotate(-9.192388155425107)",
+      "bag": "rotate(-0.15705379539063458)"
+    },
+    {
+      "f": 48,
+      "nearX": -130,
+      "farX": 130,
+      "arm": "rotate(-13)",
+      "bag": "rotate(-3.6448431371070527)"
+    },
+    {
+      "f": 52,
+      "nearX": -91.92388155425118,
+      "farX": 65,
+      "arm": "rotate(-9.192388155425112)",
+      "bag": "rotate(-4.997532801828658)"
+    },
+    {
+      "f": 56,
+      "nearX": 1.7053025658242404e-13,
+      "farX": 0,
+      "arm": "rotate(1.75204959760828e-14)",
+      "bag": "rotate(-3.422735529643436)"
+    },
+    {
+      "f": 60,
+      "nearX": 91.92388155425118,
+      "farX": -65,
+      "arm": "rotate(9.192388155425105)",
+      "bag": "rotate(0.15705379539063843)"
+    },
+    {
+      "f": 64,
+      "nearX": 130,
+      "farX": -130,
+      "arm": "rotate(13)",
+      "bag": "rotate(3.644843137107052)"
+    }
+  ],
+  "transitionSources": [
+    "assets/bus.png",
+    "assets/newspaper.png"
+  ]
+}

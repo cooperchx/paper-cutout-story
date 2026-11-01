@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+// Deterministic local browser screenshots piped to ffmpeg. No hosted service.
+import http from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';import {spawn,spawnSync} from 'node:child_process';import {once} from 'node:events';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const args=process.argv.slice(2);if(args.length<2){console.log('node scripts/render.mjs manifest.json output.mp4 [--width 270] [--seconds 2]');process.exit(1)}
+const manifest=path.resolve(args[0]),output=path.resolve(args[1]);
+function option(k){const i=args.indexOf(k);return i<0?undefined:args[i+1]}
+let spec=JSON.parse(await fs.readFile(manifest,'utf8'));let width=Number(option('--width')||spec.width),seconds=Number(option('--seconds')||spec.duration);
+if(!Number.isInteger(width)||width<64||width>3840||width%2||!Number.isFinite(seconds)||seconds<=0||seconds>spec.duration)throw Error('Invalid width or seconds');
+if(!manifest.startsWith(root+path.sep))throw Error('Manifest must be inside repository; image paths may be relative to it');
+try{await fs.access(output);throw Error('Output exists; choose a versioned filename')}catch(e){if(e.code!=='ENOENT')throw e}
+if(spawnSync('ffmpeg',['-version'],{stdio:'ignore'}).status!==0)throw Error('ffmpeg is required on PATH');
+let puppeteer;try{puppeteer=(await import(process.env.PUPPETEER_MODULE||'puppeteer')).default}catch{throw Error('Install puppeteer (npm install) or set PUPPETEER_MODULE to an installed compatible module')}
+const types={'.html':'text/html','.json':'application/json','.png':'image/png','.jpg':'image/jpeg','.js':'text/javascript','.wav':'audio/wav','.ttf':'font/ttf'};
+const server=http.createServer(async(req,res)=>{try{const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname),f=path.resolve(root,'.'+pathname);if(!f.startsWith(root+path.sep))throw Error('Outside root');const data=await fs.readFile(f);res.writeHead(200,{'Content-Type':types[path.extname(f)]||'application/octet-stream'});res.end(data)}catch{res.writeHead(404);res.end('Not found')}});
+server.listen(0,'127.0.0.1');await once(server,'listening');let browser,encoder;
+try{browser=await puppeteer.launch({headless:true,...(process.env.CHROME_PATH?{executablePath:process.env.CHROME_PATH}:{}),args:['--allow-file-access-from-files']});let page=await browser.newPage();let height=Math.round(width*spec.height/spec.width/2)*2;
+await page.setViewport({width:spec.width,height:spec.height,deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(`http://127.0.0.1:${server.address().port}/templates/player.html?manifest=${encodeURIComponent('/'+path.relative(root,manifest).split(path.sep).join('/'))}`);await page.evaluate(()=>window.ready);await page.addStyleTag({content:'body{display:block;margin:0;min-height:0}nav{display:none}canvas{width:auto;height:auto;max-width:none;display:block}'});const canvas=await page.$('canvas');
+await fs.mkdir(path.dirname(output),{recursive:true});let ff=['-hide_banner','-loglevel','error','-nostdin','-n','-f','image2pipe','-vcodec','png','-framerate',String(spec.fps),'-i','pipe:0'];if(spec.audio){const audio=path.resolve(path.dirname(manifest),spec.audio);if(!audio.startsWith(root+path.sep))throw Error('Audio outside repository');ff.push('-i',audio,'-map','0:v:0','-map','1:a:0','-c:a','aac','-b:a','160k','-af','apad')}ff.push('-vf',`scale=${width}:${height}`,'-c:v','libx264','-pix_fmt','yuv420p','-preset','fast','-crf','20','-t',String(seconds),'-movflags','+faststart',output);
+encoder=spawn('ffmpeg',ff,{stdio:['pipe','inherit','inherit']});encoder.stdin.on('error',()=>{});const finished=new Promise((yes,no)=>{encoder.on('error',no);encoder.on('close',c=>c===0?yes():no(Error('ffmpeg exit '+c)))});finished.catch(()=>{});
+for(let i=0;i<Math.ceil(seconds*spec.fps);i++){await page.evaluate(f=>window.renderFrame(f),i);if(errors.length)throw Error(errors.join('\n'));const png=await canvas.screenshot({type:'png'});if(!encoder.stdin.write(png))await Promise.race([once(encoder.stdin,'drain'),finished.then(()=>{throw Error('Encoder closed before all frames')})]);if(i%spec.fps===0)console.log(`frame ${i}/${Math.ceil(seconds*spec.fps)}`)}encoder.stdin.end();await finished;console.log(output);
+}catch(e){encoder?.kill();throw e}finally{await browser?.close();server.close()}

@@ -1,0 +1,222 @@
+{
+  "media": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "nb_frames": "288"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "nb_frames": "564"
+      }
+    ],
+    "format": {
+      "duration": "12.000000",
+      "size": "17320624"
+    }
+  },
+  "character_check": {
+    "frames": 268,
+    "minimum_red_pixels": 1030,
+    "emptyFrames": 0
+  },
+  "timeline_pose_check": {
+    "framesChecked": 280,
+    "bad": [],
+    "sequence": [
+      {
+        "f": 12,
+        "id": "pose-B"
+      },
+      {
+        "f": 18,
+        "id": "pose-C"
+      },
+      {
+        "f": 24,
+        "id": "pose-D"
+      },
+      {
+        "f": 30,
+        "id": "pose-A"
+      },
+      {
+        "f": 36,
+        "id": "pose-B"
+      },
+      {
+        "f": 42,
+        "id": "pose-C"
+      },
+      {
+        "f": 48,
+        "id": "pose-D"
+      },
+      {
+        "f": 54,
+        "id": "pose-A"
+      },
+      {
+        "f": 60,
+        "id": "pose-B"
+      },
+      {
+        "f": 66,
+        "id": "pose-C"
+      },
+      {
+        "f": 72,
+        "id": "pose-D"
+      },
+      {
+        "f": 78,
+        "id": "pose-A"
+      },
+      {
+        "f": 84,
+        "id": "pose-B"
+      },
+      {
+        "f": 90,
+        "id": "pose-C"
+      },
+      {
+        "f": 96,
+        "id": "pose-D"
+      },
+      {
+        "f": 102,
+        "id": "pose-A"
+      },
+      {
+        "f": 108,
+        "id": "pose-B"
+      },
+      {
+        "f": 114,
+        "id": "pose-C"
+      },
+      {
+        "f": 120,
+        "id": "pose-D"
+      },
+      {
+        "f": 126,
+        "id": "pose-A"
+      },
+      {
+        "f": 132,
+        "id": "pose-B"
+      },
+      {
+        "f": 138,
+        "id": "pose-C"
+      },
+      {
+        "f": 144,
+        "id": "pose-D"
+      },
+      {
+        "f": 150,
+        "id": "pose-A"
+      },
+      {
+        "f": 156,
+        "id": "pose-B"
+      },
+      {
+        "f": 162,
+        "id": "pose-C"
+      },
+      {
+        "f": 168,
+        "id": "pose-D"
+      },
+      {
+        "f": 174,
+        "id": "pose-A"
+      },
+      {
+        "f": 180,
+        "id": "pose-B"
+      },
+      {
+        "f": 186,
+        "id": "pose-C"
+      },
+      {
+        "f": 192,
+        "id": "pose-D"
+      },
+      {
+        "f": 198,
+        "id": "pose-A"
+      },
+      {
+        "f": 204,
+        "id": "pose-B"
+      },
+      {
+        "f": 210,
+        "id": "pose-C"
+      },
+      {
+        "f": 216,
+        "id": "pose-D"
+      },
+      {
+        "f": 222,
+        "id": "pose-A"
+      },
+      {
+        "f": 228,
+        "id": "pose-B"
+      },
+      {
+        "f": 234,
+        "id": "pose-C"
+      },
+      {
+        "f": 240,
+        "id": "pose-D"
+      },
+      {
+        "f": 246,
+        "id": "pose-A"
+      },
+      {
+        "f": 252,
+        "id": "pose-B"
+      },
+      {
+        "f": 258,
+        "id": "pose-C"
+      },
+      {
+        "f": 264,
+        "id": "pose-D"
+      },
+      {
+        "f": 270,
+        "id": "pose-A"
+      },
+      {
+        "f": 276,
+        "id": "pose-B"
+      },
+      {
+        "f": 282,
+        "id": "pose-C"
+      }
+    ]
+  }
+}

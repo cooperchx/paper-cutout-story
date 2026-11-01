@@ -1,0 +1,28 @@
+{
+  "cup": {
+    "sourceCrop": [
+      381,
+      208,
+      803,
+      956
+    ],
+    "minAlpha": 252,
+    "maxAlpha": 254,
+    "pixelsBelow204": 0,
+    "pixels": 315656,
+    "fullyOpaqueAfterFilter": true
+  },
+  "building": {
+    "sourceCrop": [
+      402,
+      341,
+      878,
+      1184
+    ],
+    "minAlpha": 252,
+    "maxAlpha": 254,
+    "pixelsBelow204": 0,
+    "pixels": 401268,
+    "fullyOpaqueAfterFilter": true
+  }
+}

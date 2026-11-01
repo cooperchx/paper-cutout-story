@@ -1,0 +1,53 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "walk-A",
+      "path": "assets/walk-A.png",
+      "source": "generation-source/exec-44d44fc7-6c18-46cc-88da-591e4f405c97.png",
+      "prompt": "Use case identity-preserve. Photographic transparent full-body cutout of the EXACT woman in the reference. Same face in rightward three-quarter profile, black hair in loose high bun with wispy bangs, small gold earrings. Same pale butter-yellow collared shirt with ruched waist worn open over white tank, sleeves rolled; loose light-blue wide-leg jeans, dark brown belt with oval metal buckle, dark brown pointed shoes, chocolate shoulder bag on shoulder at SCREEN LEFT, white takeaway cup held by hand at SCREEN RIGHT. Preserve face without noise, glitter, hard light blotches or beautification. No text/logo/background/ground shadow/paper border. Entire head, bag and shoes inside generous margins on portrait1024x1536. Camera unchanged three-quarter front view facing slightly right. Registration: head centre x520 y180, pelvis centre x530 y800, shoe floor y1460. Soft Paris daylight, photographic proportions. Frame A: faithfully preserve the original forward walking step: foreground leg from screen-right/front shorts/jean hip comes FORWARD, foot lands in lower screen-right; opposite leg trails behind toward screen-left. Small natural stride rather than running. Relaxed free arm slightly backward; shoulder bag rests behind upper arm, slight backswing. Cup held steady chest height."
+    },
+    {
+      "id": "walk-P",
+      "path": "assets/walk-P.png",
+      "source": "generation-source/exec-c173f9cd-0710-485f-8887-f79d1c1e9f25.png",
+      "prompt": "Use case identity-preserve. Photographic transparent full-body cutout of the EXACT woman in the reference. Same face in rightward three-quarter profile, black hair in loose high bun with wispy bangs, small gold earrings. Same pale butter-yellow collared shirt with ruched waist worn open over white tank, sleeves rolled; loose light-blue wide-leg jeans, dark brown belt with oval metal buckle, dark brown pointed shoes, chocolate shoulder bag on shoulder at SCREEN LEFT, white takeaway cup held by hand at SCREEN RIGHT. Preserve face without noise, glitter, hard light blotches or beautification. No text/logo/background/ground shadow/paper border. Entire head, bag and shoes inside generous margins on portrait1024x1536. Camera unchanged three-quarter front view facing slightly right. Registration: head centre x520 y180, pelvis centre x530 y800, shoe floor y1460. Soft Paris daylight, photographic proportions. Frame P, visibly distinct PASSING POSE: knees close together directly under hips, one supporting leg vertical to planted shoe centred x560 on floor y1460, the opposite knee gently bent as rear heel lifts just behind supporting ankle at x440 y1340. No wide V legs, no large stride. Foreground leg supports body, far leg passes behind. Free arm relaxed downward near seam, shoulder bag hangs close to side. Cup held steady at chest height. Upper torso/head pixel registration identical to frameA description."
+    },
+    {
+      "id": "walk-B",
+      "path": "assets/walk-B.png",
+      "source": "generation-source/exec-400f6e9e-1fc0-4315-99a1-c8d9d68b16a5.png",
+      "prompt": "Exact same woman/outfit from user photo, identity-preserving transparent full-body photograph. High messy black bun and wispy bangs, gold earrings, pale butter yellow ruched-waist shirt open over white tank, rolled sleeves, wide light-blue jeans, brown belt, pointed dark brown shoes, brown SHOULDER bag at image LEFT (not hand-carried), white coffee cup at image RIGHT hand. Same three-quarter front camera angle looking RIGHT. Natural unretouched clean face, no light speckles. Entire person on 1024x1536 canvas with head centre x520 y180, pelvis x530 y800, ground y1460. Uniform soft daylight, transparent backdrop, no street, text, marks or paper border. Generate an unmistakably OPPOSITE FOOTFALL. The leg emerging on viewer LEFT of jeans now steps FORWARD diagonally toward LOWER LEFT of canvas, with the closest shoe at x385 y1460. The leg on viewer RIGHT now trails BACKWARD toward x670 y1310, with rear heel lifted. This REVERSES the original photo where the nearest foot is at lower right. Make the full trouser legs and shoe separation obvious, modest natural stride. Keep upper body facing/look right; do not mirror head or bag. Left-side free arm moves slightly forward, shoulder bag sways slightly to front of hip. Cup steady."
+    },
+    {
+      "id": "walk-Q",
+      "path": "assets/walk-Q.png",
+      "source": "generation-source/exec-e4f0547e-d9c9-493b-8c7b-f566891f7d7a.png",
+      "prompt": "Exact same woman/outfit from user photo, identity-preserving transparent full-body photograph. High messy black bun and wispy bangs, gold earrings, pale butter yellow ruched-waist shirt open over white tank, rolled sleeves, wide light-blue jeans, brown belt, pointed dark brown shoes, brown SHOULDER bag at image LEFT (not hand-carried), white coffee cup at image RIGHT hand. Same three-quarter front camera angle looking RIGHT. Natural unretouched clean face, no light speckles. Entire person on 1024x1536 canvas with head centre x520 y180, pelvis x530 y800, ground y1460. Uniform soft daylight, transparent backdrop, no street, text, marks or paper border. Generate the second mid-stride PASSING pose, clearly unlike original wide stride: two knees almost touch beneath the pelvis. Leg on viewer LEFT supports body almost vertically to shoe x460 y1460. Leg on viewer RIGHT is bent at knee and passing, with shoe lifted at x650 y1320, fully visible separated from the planted shin. Feet point toward lower-right in same camera perspective. A narrow silhouette and visible lifted rear heel, not two planted feet. Free arm relaxed near body, shoulder bag close to side. Keep head and shoulders position fixed."
+    },
+    {
+      "id": "haussmann",
+      "path": "assets/haussmann.png",
+      "source": "generation-source/exec-109f9ca0-0ba2-4deb-ad70-a1c3985e9481.png",
+      "prompt": "Photographic paper-cut collage asset for a sophisticated Paris fashion editorial. Realistic colour photograph printed on matte magazine stock, thin irregular ivory cut paper rim with tiny fibres, subtle natural printing texture, NOT drawing or cartoon. Isolated silhouette on TRUE transparent background. No people, no cars, no distracting text, no watermark, no big shadow. Palette soft limestone cream, denim/slate blue, chocolate and restrained wine-red. All objects within margins. One coherent Paris Haussmann corner-building fragment, elegant pale limestone facade with tall French windows and wrought-iron balconies, zinc mansard roof, a small wine-red canvas cafe awning on the ground floor. Entire roof and building base visible, photographed from low three-quarter street angle, compact roughly square-to-portrait silhouette, three to four storeys only. No sky or adjoining background. No readable shop branding. Beautiful editorial sunlight."
+    },
+    {
+      "id": "metro",
+      "path": "assets/metro.png",
+      "source": "generation-source/exec-39f257e1-8489-483b-a204-ee4e908b32ed.png",
+      "prompt": "Photographic paper-cut collage asset for a sophisticated Paris fashion editorial. Realistic colour photograph printed on matte magazine stock, thin irregular ivory cut paper rim with tiny fibres, subtle natural printing texture, NOT drawing or cartoon. Isolated silhouette on TRUE transparent background. No people, no cars, no distracting text, no watermark, no big shadow. Palette soft limestone cream, denim/slate blue, chocolate and restrained wine-red. All objects within margins. One standalone iconic Paris Art Nouveau metro entrance sign/ironwork fragment: green curving Guimard-style METROPOLITAIN sign with two slender green plantlike stalks and small red-orange lamps, descending green railing/stair entrance below. Three-quarter frontal angle, tall airy sculptural cutout. Text exactly METROPOLITAIN on cream sign if shown. No buildings, no pavement rectangle, no city background."
+    },
+    {
+      "id": "seine",
+      "path": "assets/seine.png",
+      "source": "generation-source/exec-cca2e6b8-9e62-4e42-91cb-1c8a279c6c3b.png",
+      "prompt": "A refined photographic paper-cut fragment of Paris Seine riverbank: two open dark green bouquiniste bookseller boxes displaying old books and small vintage prints on the pale stone parapet, behind them a shallow strip of muted blue Seine water and a tiny distant Eiffel Tower silhouette. Three-quarter panorama, landscape asset, no people, no cars, no sky rectangle. The physical cutout follows books boxes / parapet / distant skyline, irregular cream paper edge, matte printed fashion editorial texture. Palette ivory, muted green, denim blue, faded terracotta. True transparent background outside silhouette, no text except incidental tiny unreadable vintage books. Whole coherent compact vignette isolated with margins. Not a drawing."
+    },
+    {
+      "id": "postcard",
+      "path": "assets/postcard.png",
+      "source": "generation-source/exec-0b73dbae-a2bf-48f3-b36f-62b7ca5b542c.png",
+      "prompt": "ONE antique Paris photographic POSTCARD, flat frontal scan of real physical paper, perfectly rectangular landscape ratio3:2 with slightly worn deckled edges and soft creased ivory cardboard. Entire opaque card visible with generous TRANSPARENT margin outside. Full front face contains an elegant desaturated black-and-cream photograph of Eiffel Tower and Paris rooftops with a dusty denim blue sky, large tasteful serif PARIS printed in a cream bottom border. One small burgundy postage stamp in upper right. Matte paper fibres and vintage photographic print quality, sophisticated fashion editorial, no plastic shine. No other items, no hands, no surrounding desk. CRITICAL postcard interior must be fully opaque without transparent holes; usable as a large single-paper wipe over video."
+    }
+  ]
+}

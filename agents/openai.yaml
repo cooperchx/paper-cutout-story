@@ -1,0 +1,4 @@
+interface:
+  display_name: "纸片剧场 · Paper Cutout Story"
+  short_description: "把人物、城市与生活照片做成可编辑的纸质拼贴动画，支持多姿态循环与道具转场"
+  default_prompt: "用 $paper-cutout-story，将我提供的主角图片做成纸质拼贴短片，保持身份一致，设计人物动作循环、场景贴图与转场，并按可用工具完成交付。"

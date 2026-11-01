@@ -1,0 +1,10 @@
+{
+  "name": "shanghai-citywalk",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "npx --yes hyperframes@0.8.226 check",
+    "preview": "npx --yes hyperframes@0.8.226 preview",
+    "render": "npx --yes hyperframes@0.8.226 render"
+  }
+}
