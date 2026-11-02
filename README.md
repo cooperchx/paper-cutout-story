@@ -10,7 +10,7 @@
 
 | 上海 · 12 秒 | 香港 · 52 秒 | 伦敦 · 15 秒 | 巴黎 · 9 秒 |
 |:--:|:--:|:--:|:--:|
-| ![Shanghai](media/gifs/shanghai-v2.gif) | ![Hong Kong](media/reference/paper-city-hong-kong-preview.gif) | ![London](media/gifs/london-v5.gif) | ![Paris](media/gifs/paris-v2.gif) |
+| <img src="media/gifs/shanghai-v2.gif" alt="Shanghai" width="270" height="480"> | <img src="media/reference/paper-city-hong-kong-preview.gif" alt="Hong Kong" width="270" height="480"> | <img src="media/gifs/london-v5.gif" alt="London" width="270" height="480"> | <img src="media/gifs/paris-v2.gif" alt="Paris" width="270" height="480"> |
 | [MP4](media/videos/shanghai-v2.mp4) · [工程](projects/shanghai-citywalk-v2) | [MP4](media/reference/paper-city-hong-kong-original.mp4) | [MP4](media/videos/london-v5.mp4) · [工程](projects/london-citywalk-v5) | [MP4](media/videos/paris-v2.mp4) · [工程](projects/paris-citywalk-v2) |
 
 GIF 为完整时长、低分辨率无声预览，MP4 保留原始输出与声音。仓库收录 **12 个视频及对应 GIF、10 份阶段工程、75 张去重图片资产，另有 6 张用户提供的参考图**。早期版本和动作预览在[完整作品页](docs/gallery.md)；伦敦 v2 仅存在工作工程，没有伪造该版成片。
