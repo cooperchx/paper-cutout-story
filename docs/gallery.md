@@ -90,3 +90,11 @@
 
 [原始 MP4](../media/videos/campus-first-test.mp4) · [GIF](../media/gifs/campus-first-test.gif)
 
+
+## 用户提供的原始参考（另列）
+
+约52秒，香港主题，5个主体场景＋造型回顾＋群像收尾。不是本项目新制作的成片。
+
+![原参考香港](../media/reference/paper-city-hong-kong-preview.gif)
+
+[原始MP4](../media/reference/paper-city-hong-kong-original.mp4) · [段落与城市识别](reference-video.md)

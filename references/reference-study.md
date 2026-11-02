@@ -1,5 +1,9 @@
 # PAPER CITY：参考片观察
 
+## 原片与城市识别
+
+[完整原视频](../media/reference/paper-city-hong-kong-original.mp4) · [GIF预览](../media/reference/paper-city-hong-kong-preview.gif) · [7个内容段与5个主体场景](../docs/reference-video.md)。全片是香港1个城市主题，上环/中环明确，街市/咖啡/夜晚的具体区域未标明。
+
 ## 后续修正
 
 2026-10-31 的 [连续帧复核](frame-audit.md) 将人物机制进一步落实为：在检查片段中，正面约 4 个离散姿态、侧面约 6 个离散姿态，约 1 秒循环；应以多姿态切图作为复现优先路线。此前“短动作抠像／姿态序列均可”的概括过宽，首版因此做成单张人物动态海报，未抓住城市穿搭 vlog 的核心。

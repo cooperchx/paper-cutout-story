@@ -1,6 +1,8 @@
 {
   "catalog_images": 75,
-  "videos": 11,
+  "produced_videos": 11,
+  "reference_videos": 1,
+  "videos": 12,
   "errors": [],
   "ok": true
 }

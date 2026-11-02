@@ -19,3 +19,5 @@ Requirements for that optional render path: Node22.12+, Chromium (installed by P
 The archive contains 11 original MP4s and matching GIFs, 10 production-stage projects, 75 unique images and 6 supplied reference images. Earlier rejected attempts are labelled and explained. The original projects used HyperFrames/GSAP; those are not required by the skill or the independent Canvas template. The portable example is a different renderer demonstration, not a pixel-identical historical export.
 
 Read [capabilities](references/capabilities.md), [gait repair](references/gait.md), [rendering](references/rendering.md) and [quality](references/quality.md) as needed. Original code/instructions: MIT. Example images, fonts and third-party runtime terms: [attribution](ATTRIBUTION.md).
+
+The supplied original reference is now included separately: [MP4](media/reference/paper-city-hong-kong-original.mp4), [GIF](media/reference/paper-city-hong-kong-preview.gif), and [scene identification](docs/reference-video.md). It is one Hong Kong-themed film with five main settings plus a recap and ending, not a multi-city compilation.

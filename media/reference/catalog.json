@@ -1,0 +1,123 @@
+[
+  {
+    "id": "paper-city-hong-kong-reference",
+    "role": "user-supplied original reference, not a newly produced film",
+    "original_filename": "虎小象-服装片或者其他片子想剪下面这个效果_提示_10368kbps-20261018235024.mp4",
+    "path": "media/reference/paper-city-hong-kong-original.mp4",
+    "gif": "media/reference/paper-city-hong-kong-preview.gif",
+    "sha256": "445799ed274f1ad2f6023cfe2de87cbc5888b0690bd3c8964082cc4066113922",
+    "bytes": 21810546,
+    "duration": 51.966259,
+    "video_duration": 51.916666666666664,
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "frames": 1246,
+    "main_scene_count": 5,
+    "content_section_count_including_recap_and_ending": 7,
+    "city_count": 1,
+    "city": "香港",
+    "timing_note": "Approximate visual segment boundaries; transition intervals are separately listed, not assigned to a new city. Place labels identify narrative setting, not proof of photographic provenance.",
+    "segments": [
+      {
+        "id": 1,
+        "start": 0,
+        "end": 8.1,
+        "type": "main_scene",
+        "label": "开场与上环",
+        "city": "香港",
+        "district": "上环",
+        "visible_label": "08:30 上环 SHEUNG WAN",
+        "basis": "全片标题“纸上香港·秋”；本段地点字幕明确标明上环"
+      },
+      {
+        "id": 2,
+        "start": 9.8,
+        "end": 15.7,
+        "type": "main_scene",
+        "label": "街市",
+        "city": "香港（叙事归属）",
+        "district": null,
+        "visible_label": "10:00 街市 MARKET",
+        "basis": "全片香港主题；仅标明活动类型，不足以确定哪条街市"
+      },
+      {
+        "id": 3,
+        "start": 17.8,
+        "end": 24.2,
+        "type": "main_scene",
+        "label": "中环",
+        "city": "香港",
+        "district": "中环",
+        "visible_label": "13:00 中环 CENTRAL",
+        "basis": "地点字幕明确标明中环"
+      },
+      {
+        "id": 4,
+        "start": 25.9,
+        "end": 32.8,
+        "type": "main_scene",
+        "label": "咖啡",
+        "city": "香港（叙事归属）",
+        "district": null,
+        "visible_label": "16:00 咖啡 COFFEE",
+        "basis": "全片香港主题；未标明咖啡店名或区域，不能仅凭门面认定地址"
+      },
+      {
+        "id": 5,
+        "start": 33.3,
+        "end": 41.3,
+        "type": "main_scene",
+        "label": "夜晚",
+        "city": "香港（叙事归属）",
+        "district": null,
+        "visible_label": "21:00 夜晚 NIGHT",
+        "basis": "全片香港主题，霓虹和小巴与其相符；未给出具体街区"
+      },
+      {
+        "id": 6,
+        "start": 41.3,
+        "end": 45.3,
+        "type": "recap",
+        "label": "五套造型快切回顾",
+        "city": "香港主题回顾",
+        "district": null,
+        "basis": "回顾已展示造型，不是新城市场景"
+      },
+      {
+        "id": 7,
+        "start": 45.3,
+        "end": 51.917,
+        "type": "ending",
+        "label": "群像与标题收尾",
+        "city": "香港",
+        "district": null,
+        "visible_label": "PAPER CITY / 纸上香港·秋",
+        "basis": "结尾标题直接确认城市主题"
+      }
+    ],
+    "transitions": [
+      {
+        "start": 8.1,
+        "end": 9.8,
+        "object": "电车"
+      },
+      {
+        "start": 15.7,
+        "end": 17.8,
+        "object": "双层巴士"
+      },
+      {
+        "start": 24.2,
+        "end": 25.9,
+        "object": "咖啡杯"
+      },
+      {
+        "start": 32.8,
+        "end": 33.3,
+        "object": "整页翻转"
+      }
+    ],
+    "rights_note": "User-supplied reference; author/rightsholder not independently verified. Included at user request, not covered by original-code MIT license."
+  }
+]

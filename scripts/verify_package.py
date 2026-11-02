@@ -12,6 +12,10 @@ for a in imgs:
  if not f.is_file() or sha(f)!=a['sha256']:fail('Image missing/hash mismatch: '+a['path'])
 report['catalog_images']=len(imgs)
 media=json.loads((ROOT/'media/catalog.json').read_text())
+reference_media=json.loads((ROOT/'media/reference/catalog.json').read_text())
+report['produced_videos']=len(media)
+report['reference_videos']=len(reference_media)
+media+=reference_media
 if not shutil.which('ffprobe'):fail('ffprobe unavailable: media duration verification requires it')
 else:
  for m in media:

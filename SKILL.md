@@ -36,6 +36,7 @@ This skill does not require a named model, API key, paid video generator, plugin
 
 ## Included resources
 
+- [Original reference film and city/scene index](docs/reference-video.md): one Hong Kong-themed film, five main settings plus recap and ending; original MP4 and preview GIF included separately.
 - [Complete iteration history](docs/process.md): actual successes, rejected versions and the corrections that followed.
 - [Case decision exercises](docs/agent-validation.md): adaptations to different tools and requests.
 - `scripts/inspect_video.py`: bounded timestamped contact sheets; ffmpeg + ffprobe + Pillow.

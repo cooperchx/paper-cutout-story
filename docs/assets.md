@@ -1,6 +1,6 @@
 # 完整图片索引
 
-按字节哈希去重，共75张生成素材、派生裁切、检查图和参考片分析联系表。原工程引用别名保存在[JSON目录](../assets/catalog.json)。另有[6张用户参考输入](../assets/references/sources.json)。原始参考视频及全量逐帧缓存不在发布范围。
+按字节哈希去重，共75张生成素材、派生裁切、检查图和参考片分析联系表。原工程引用别名保存在[JSON目录](../assets/catalog.json)。另有[6张用户参考输入](../assets/references/sources.json)。[原始参考视频](reference-video.md)现已单独收录；全量逐帧缓存仍不发布。
 
 |图片|原文件/角色别名|大小|
 |---|---|---|
