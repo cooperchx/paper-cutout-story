@@ -4,22 +4,16 @@
 
 一套可供生图型 agent 使用的开放制作技能：参考拆解 → 创意与分镜 → 同人动作图 → 城市/场景贴图 → 纸边与剪字 → 动作循环 → 道具转场 → 检查与导出。包含真实案例、完整资产和可编辑工程，而不只有提示词。
 
-[开始使用](#开始使用) · [Agent 入口](SKILL.md) · [完整制作回顾](docs/process.md) · [全部视频/GIF](docs/gallery.md) · [原参考：香港5场景](docs/reference-video.md) · [全部图片目录](docs/assets.md) · [English](README.en.md)
+[开始使用](#开始使用) · [Agent 入口](SKILL.md) · [完整制作回顾](docs/process.md) · [全部视频/GIF](docs/gallery.md) · [全部图片目录](docs/assets.md) · [English](README.en.md)
 
 ## 成品预览
 
-| 上海 · 12 秒 | 伦敦 · 15 秒 | 巴黎 · 9 秒 |
-|:--:|:--:|:--:|
-| ![Shanghai](media/gifs/shanghai-v2.gif) | ![London](media/gifs/london-v5.gif) | ![Paris](media/gifs/paris-v2.gif) |
-| [MP4](media/videos/shanghai-v2.mp4) · [工程](projects/shanghai-citywalk-v2) | [MP4](media/videos/london-v5.mp4) · [工程](projects/london-citywalk-v5) | [MP4](media/videos/paris-v2.mp4) · [工程](projects/paris-citywalk-v2) |
+| 上海 · 12 秒 | 香港 · 52 秒 | 伦敦 · 15 秒 | 巴黎 · 9 秒 |
+|:--:|:--:|:--:|:--:|
+| ![Shanghai](media/gifs/shanghai-v2.gif) | ![Hong Kong](media/reference/paper-city-hong-kong-preview.gif) | ![London](media/gifs/london-v5.gif) | ![Paris](media/gifs/paris-v2.gif) |
+| [MP4](media/videos/shanghai-v2.mp4) · [工程](projects/shanghai-citywalk-v2) | [MP4](media/reference/paper-city-hong-kong-original.mp4) | [MP4](media/videos/london-v5.mp4) · [工程](projects/london-citywalk-v5) | [MP4](media/videos/paris-v2.mp4) · [工程](projects/paris-citywalk-v2) |
 
-GIF 为完整时长、低分辨率无声预览，MP4 保留原始输出与声音。仓库收录 **11 个视频及对应 GIF、10 份阶段工程、75 张去重图片资产，另有 6 张用户提供的参考图**。早期版本和动作预览在[完整作品页](docs/gallery.md)；伦敦 v2 仅存在工作工程，没有伪造该版成片。
-
-## 最初参考视频：香港的一天
-
-原片现已作为独立参考素材收录：**约52秒，香港1个城市主题、5个主体场景，另有造型回顾与群像收尾**。上环和中环有明确地点标签；街市、咖啡、夜晚未标明具体区域。
-
-[完整原视频](media/reference/paper-city-hong-kong-original.mp4) · [GIF预览](media/reference/paper-city-hong-kong-preview.gif) · [逐段时间与城市识别](docs/reference-video.md)
+GIF 为完整时长、低分辨率无声预览，MP4 保留原始输出与声音。仓库收录 **12 个视频及对应 GIF、10 份阶段工程、75 张去重图片资产，另有 6 张用户提供的参考图**。早期版本和动作预览在[完整作品页](docs/gallery.md)；伦敦 v2 仅存在工作工程，没有伪造该版成片。
 
 ## 素材是什么样的
 
